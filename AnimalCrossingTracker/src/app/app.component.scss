@@ -1,0 +1,53 @@
+@import '~@angular/material/theming';
+
+// Include non-theme styles for core.
+@include mat-core();
+
+.content-container {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.toolbar {
+  height: 50px;
+  padding: 8px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidenav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+
+// Disabling the side border that comes with the side drawer
+.mat-drawer-side {
+  border-right: 0;
+}
+
+.title-search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  max-width: 1000px;
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 5px;
+}
