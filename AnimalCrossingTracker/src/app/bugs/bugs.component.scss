@@ -4,7 +4,7 @@
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-  // max-height: vh;
+  max-height: vh;
   margin-bottom: 0px !important;
 }
 
@@ -14,7 +14,7 @@
   // justify-content: center;
   // flex-wrap: wrap;
   flex: 4;
-  // max-height: calc(100vh - 82px);
+  //max-height: calc(100vh - 82px);
   // overflow-y: scroll;
   // overflow-x: visible;
   padding: 15px;
@@ -72,11 +72,12 @@
 }
 
 .checkbox-container {
-  margin:20px;
+  margin: 20px;
 }
 
 .content {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .filter {

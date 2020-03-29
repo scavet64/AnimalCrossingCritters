@@ -48,6 +48,9 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { TimesComponent } from './times/times.component';
 import { FilterComponent } from './filter/filter.component';
 import { TitleNavComponent } from './title-nav/title-nav.component';
+import { BugsComponent } from './bugs/bugs.component';
+import { ImagePipe } from './images/image.pipe';
+import { ImagePreloadDirective } from './images/image-preload.directive';
 
 @NgModule({
   declarations: [
@@ -58,6 +61,9 @@ import { TitleNavComponent } from './title-nav/title-nav.component';
     TimesComponent,
     FilterComponent,
     TitleNavComponent,
+    BugsComponent,
+    ImagePipe,
+    ImagePreloadDirective,
   ],
   imports: [
     BrowserModule,

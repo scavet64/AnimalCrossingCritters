@@ -1,18 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-import { Fish } from './fish';
-import { FishService } from './fish.service';
+import { BugService } from './bug.service';
+import { Bug } from './bug';
 import { MonthColorService } from '../color-service/month-color.service';
 import { UserDataService } from '../user-data/user-data.service';
+import { Fish } from '../fish/fish';
+import { Critter } from '../models/critter';
 
 @Component({
-  selector: 'app-fish',
-  templateUrl: './fish.component.html',
-  styleUrls: ['./fish.component.scss']
+  selector: 'app-bugs',
+  templateUrl: './bugs.component.html',
+  styleUrls: ['./bugs.component.scss']
 })
-export class FishComponent implements OnInit {
+export class BugsComponent implements OnInit {
 
-  fishes: Fish[];
-  filteredFish: Fish[];
+  bugs: Bug[];
+  filteredBugs: Bug[];
+
   searchBar = '';
   selectedMonths: string[] = [];
   selectedTimes: string[] = [];
@@ -20,15 +23,15 @@ export class FishComponent implements OnInit {
   hideCaptured = false;
 
   constructor(
-    public fishService: FishService,
+    public bugService: BugService,
     public monthColorService: MonthColorService,
     public userDataService: UserDataService
   ) { }
 
   ngOnInit() {
-    this.fishService.loadFish().subscribe(res => {
-      this.fishes = res;
-      this.filteredFish = this.fishes;
+    this.bugService.loadBugs().subscribe(res => {
+      this.bugs = res;
+      this.filteredBugs = this.bugs;
     });
   }
 
@@ -37,7 +40,7 @@ export class FishComponent implements OnInit {
   }
 
   updateFilter() {
-    this.filteredFish = this.fishes.filter(fish => {
+    this.filteredBugs = this.bugs.filter(fish => {
       if (this.searchBar !== '' && !fish.Name.toLowerCase().includes(this.searchBar.toLowerCase())) {
         return false;
       }
@@ -51,15 +54,15 @@ export class FishComponent implements OnInit {
     });
   }
 
-  private captureCheck(fish: Fish) {
+  private captureCheck(critter: Critter) {
     if (this.hideCaptured) {
-      return this.userDataService.userData.ownedFish.indexOf(fish.CritterNumber) < 0;
+      return this.userDataService.userData.ownedBugs.indexOf(critter.CritterNumber) < 0;
     } else {
       return true;
     }
   }
 
-  private containsMonth(fish: Fish) {
+  private containsMonth(critter: Critter) {
     if (this.selectedMonths.length === 0) {
       return true;
     }
@@ -67,13 +70,13 @@ export class FishComponent implements OnInit {
     let contains = false;
     if (this.selectedHemisphere === "Northern") {
       this.selectedMonths.forEach(month => {
-        if (fish.NorthHemisphere.includes(month)) {
+        if (critter.NorthHemisphere.includes(month)) {
           contains = true;
         }
       });
     } else {
       this.selectedMonths.forEach(month => {
-        if (fish.SouthHemisphere.includes(month)) {
+        if (critter.SouthHemisphere.includes(month)) {
           contains = true;
         }
       });
@@ -81,14 +84,14 @@ export class FishComponent implements OnInit {
     return contains;
   }
 
-  private containsTime(fish: Fish) {
+  private containsTime(critter: Critter) {
     if (this.selectedTimes.length === 0) {
       return true;
     }
 
     let contains = false;
     this.selectedTimes.forEach(time => {
-      if (fish.TimeList.includes(time)) {
+      if (critter.TimeList.includes(time)) {
         contains = true;
       }
     });
@@ -96,33 +99,33 @@ export class FishComponent implements OnInit {
   }
 
   resetFilter() {
-    this.filteredFish = this.fishes;
+    this.filteredBugs = this.bugs;
     this.selectedMonths = [];
     this.selectedTimes = [];
     this.searchBar = '';
     this.hideCaptured = false;
   }
 
-  hasFish(fish: Fish) {
-    return this.userDataService.userData.ownedFish.find(fishId => fishId === fish.CritterNumber) !== undefined;
+  hasFish(critter: Critter) {
+    return this.userDataService.userData.ownedBugs.find(fishId => fishId === critter.CritterNumber) !== undefined;
   }
 
-  ownershipChange(fish: Fish) {
+  ownershipChange(critter: Critter) {
     // If we have it, remove it
     const userData = this.userDataService.userData;
-    if (userData.ownedFish.find(fishId => fishId === fish.CritterNumber)) {
-      userData.ownedFish = userData.ownedFish.filter(fishId => fishId !== fish.CritterNumber);
+    if (userData.ownedBugs.find(fishId => fishId === critter.CritterNumber)) {
+      userData.ownedBugs = userData.ownedBugs.filter(fishId => fishId !== critter.CritterNumber);
     } else {
-      userData.ownedFish.push(fish.CritterNumber);
+      userData.ownedBugs.push(critter.CritterNumber);
     }
     this.userDataService.save();
   }
 
-  monthsToDisplay(fish: Fish) {
+  monthsToDisplay(critter: Critter) {
     if (this.selectedHemisphere === "Northern") {
-      return fish.NorthHemisphere;
+      return critter.NorthHemisphere;
     } else {
-      return fish.SouthHemisphere;
+      return critter.SouthHemisphere;
     }
   }
 
