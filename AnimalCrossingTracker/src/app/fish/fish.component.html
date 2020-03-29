@@ -1,48 +1,58 @@
 <div class="inner-content-container wrapper">
-  <div>
+  <!-- <div>
     <p>My Fish</p>
-  </div>
+  </div> -->
 
   <!-- Filters -->
   <div>
 
   </div>
-  <app-search-bar [placeholder]="'Search for a fish'" [query]="searchbar"></app-search-bar>
+  <!-- <app-search-bar [placeholder]="'Search for a fish'" [query]="searchbar"></app-search-bar> -->
 
-  <!-- List of fish -->
-  <div class="card-container">
-    <div *ngFor="let fish of fishes" class="critter-card my-card mat-elevation-z8">
-      <div class="image-container">
-        <img class="image" [src]="fishService.getImagePath(fish)" />
-      </div>
+  <div class="content">
+    <app-filter class="filter" [(selectedName)]="searchbar" [(selectedMonths)]="selectedMonths"
+      [(selectedTimes)]="selectedTimes" [(selectedHemisphere)]="selectedHemisphere" (valueChanged)="updateFilter()"
+      (resetFilter)="resetFilter()">
 
-      <div class="my-card-description">
-        <div style="font-size: 1.15rem;">
-          {{fish.Name}}
+    </app-filter>
+    <div class="card-container">
+      <div *ngFor="let fish of filteredFish" class="critter-card my-card mat-elevation-z8">
+        <div class="image-container">
+          <img class="image" [src]="fishService.getImagePath(fish)" />
         </div>
-        <div class="critter-details">
-          <div>
-            Location: {{fish.Location}}
+
+        <div class="my-card-description">
+          <div style="font-size: 1.15rem;">
+            {{fish.Name}}
           </div>
-          <div class="datum">
-            Time of day: {{fish.Time}}
+          <div class="critter-details">
+            <div>
+              Location: {{fish.Location}}
+            </div>
+            <div class="datum">
+              Time of day: {{fish.Time}}
+            </div>
+          </div>
+          <!-- <app-times [times]="fish.TimeList" ></app-times> -->
+          <div style="font-size: 0.75rem; margin-top: 5px">
+            <mat-chip-list aria-label="Fish selection">
+              <mat-chip class="my-chip-xs" *ngFor="let month of fish.NorthHemisphere"
+                [style.background-color]="getMonthColor(month)">{{month}}</mat-chip>
+            </mat-chip-list>
           </div>
         </div>
-        <div style="font-size: 0.75rem; margin-top: 5px">
-          <mat-chip-list aria-label="Fish selection">
-            <mat-chip class="my-chip-xs" *ngFor="let month of fish.NorthHemisphere"
-              [style.background-color]="getMonthColor(month)">{{month}}</mat-chip>
-          </mat-chip-list>
+
+        <div class="checkbox-container">
+          <mat-checkbox>
+
+          </mat-checkbox>
         </div>
-      </div>
-
-      <div class="checkbox-container">
-        <mat-checkbox>
-
-        </mat-checkbox>
       </div>
     </div>
   </div>
+
+  <!-- List of fish -->
+
 
 
 </div>

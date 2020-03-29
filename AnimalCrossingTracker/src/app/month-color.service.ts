@@ -9,30 +9,30 @@ export class MonthColorService {
 
   getMonthColor(month: string) {
     switch (month) {
-      case "January":
-        return "#3399ff";
-      case "February":
-        return "#ff66cc";
-      case "March":
-        return "#ff6666";
-      case "April":
-        return "#ffff99";
-      case "May":
-        return "#99ff66";
-      case "June":
-        return "#6666ff";
-      case "July":
-        return "#00ff00";
-      case "August":
-        return "#99ff66";
-      case "September":
-        return "#ffcc00";
-      case "October":
-        return "#ff6600";
-      case "November":
-        return "#ff0066";
-      case "December":
-        return "#33cc33";
+      case 'January':
+        return '#3399ff';
+      case 'February':
+        return '#ff66cc';
+      case 'March':
+        return '#ff6666';
+      case 'April':
+        return '#ffff99';
+      case 'May':
+        return '#99ff66';
+      case 'June':
+        return '#6666ff';
+      case 'July':
+        return '#00ff00';
+      case 'August':
+        return '#99ff66';
+      case 'September':
+        return '#ffcc00';
+      case 'October':
+        return '#ff6600';
+      case 'November':
+        return '#ff0066';
+      case 'December':
+        return '#33cc33';
     }
   }
 

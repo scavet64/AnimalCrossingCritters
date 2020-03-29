@@ -16,7 +16,7 @@ export class FishService {
 
   public loadFish(): Observable<Fish[]> {
     if (!this.fish) {
-      return this.httpClient.get<any>("assets/data/FishCustom.json");
+      return this.httpClient.get<any>('assets/data/FishCustom.json');
     } else {
       return Observable.create(observe => {
         return this.fish;

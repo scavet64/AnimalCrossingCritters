@@ -45,6 +45,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { FishComponent } from './fish/fish.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
+import { TimesComponent } from './times/times.component';
+import { FilterComponent } from './filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +54,8 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     FishComponent,
     SearchBarComponent,
     SidenavComponent,
+    TimesComponent,
+    FilterComponent,
   ],
   imports: [
     BrowserModule,

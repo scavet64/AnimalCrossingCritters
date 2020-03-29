@@ -68,3 +68,12 @@ body {
     margin: 0rem;
   }
 }
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: mat-color($accent);
+  border-radius: 10px;
+}

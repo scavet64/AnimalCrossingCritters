@@ -1,0 +1,10 @@
+<div class="time-container">
+  <div *ngFor="let time of allTime">
+    <div style="width: 30px;">
+      {{time.split('.').join('')}}
+    </div>
+    <div *ngIf="isAvailable(time)" style="width: 100%; background-color: green;">
+      T
+    </div>
+  </div>
+</div>

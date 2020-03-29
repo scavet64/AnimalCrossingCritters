@@ -1,0 +1,40 @@
+
+<div class="filter-container mat-elevation-z8">
+  <div class="title center">
+    Filters
+  </div>
+  <div>
+
+    <div class="center">
+      <mat-button-toggle-group name="Hemisphere" [value]="selectedHemisphere" (change)="hemisphereChange($event)">
+        <mat-button-toggle value="Northern">Northern</mat-button-toggle>
+        <mat-button-toggle value="Southern">Southern</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+
+
+    <mat-form-field [color]="'accent'" class="field">
+      <mat-label>Name</mat-label>
+      <input matInput [(value)]="selectedName" (change)="nameChange($event)">
+    </mat-form-field>
+
+    <mat-form-field [color]="'accent'" class="field">
+      <mat-label>Months</mat-label>
+      <mat-select multiple [(value)]="selectedMonths" (selectionChange)="monthsChange($event)">
+        <mat-option *ngFor="let month of monthsList" [(value)]="month">{{month}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field [color]="'accent'" class="field">
+      <mat-label>Times</mat-label>
+      <mat-select  multiple [(value)]="selectedTimes" (selectionChange)="timesChange($event)">
+        <mat-option *ngFor="let time of timesList" [value]="time">{{time}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="center">
+      <button mat-raised-button [color]="'accent'" (click)="resetFilters()">Reset</button>
+    </div>
+
+  </div>
+</div>
