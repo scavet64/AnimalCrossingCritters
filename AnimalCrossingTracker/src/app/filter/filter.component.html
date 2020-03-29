@@ -15,7 +15,7 @@
 
     <mat-form-field [color]="'accent'" class="field">
       <mat-label>Name</mat-label>
-      <input matInput [(value)]="selectedName" (change)="nameChange($event)">
+      <input matInput [(value)]="selectedName" (keydown)="nameChange($event)">
     </mat-form-field>
 
     <mat-form-field [color]="'accent'" class="field">
@@ -31,6 +31,12 @@
         <mat-option *ngFor="let time of timesList" [value]="time">{{time}}</mat-option>
       </mat-select>
     </mat-form-field>
+
+    <div class="center">
+      <mat-checkbox [(checked)]="hideCaptured" (change)="hideCapturedChanged($event)">
+        Hide Captured
+      </mat-checkbox>
+    </div>
 
     <div class="center">
       <button mat-raised-button [color]="'accent'" (click)="resetFilters()">Reset</button>

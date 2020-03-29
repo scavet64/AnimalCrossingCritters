@@ -63,6 +63,9 @@ export class FilterComponent implements OnInit {
   @Input() selectedHemisphere: string;
   @Output() selectedHemisphereChange = new EventEmitter<string>();
 
+  @Input() hideCaptured: boolean;
+  @Output() hideCapturedChange = new EventEmitter<boolean>();
+
   @Output() resetFilter = new EventEmitter<any>();
   @Output() valueChanged = new EventEmitter<any>();
 
@@ -80,6 +83,7 @@ export class FilterComponent implements OnInit {
   }
 
   nameChange(event) {
+    this.selectedName = event.target.value;
     this.selectedNameChange.emit(this.selectedName);
     this.valueChanged.emit(event);
   }
@@ -95,7 +99,14 @@ export class FilterComponent implements OnInit {
   }
 
   hemisphereChange(event) {
+    this.selectedHemisphere = event.value;
     this.selectedHemisphereChange.emit(this.selectedHemisphere);
+    this.valueChanged.emit(event);
+  }
+
+  hideCapturedChanged(event) {
+    this.hideCaptured = event.checked;
+    this.hideCapturedChange.emit(this.hideCaptured);
     this.valueChanged.emit(event);
   }
 }

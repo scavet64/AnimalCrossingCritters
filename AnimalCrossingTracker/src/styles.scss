@@ -11,12 +11,14 @@
 @import './src/app/sidenav/sidenav.component.scss-theme.scss';
 @import './src/app/search-bar/search-bar.component.scss-theme.scss';
 @import './src/app/title-nav/title-nav.component.scss-theme.scss';
+@import './src/app/filter/filter.component.scss-theme.scss';
 
 @mixin my-custom-components($theme) {
   @include app-component-theme($theme);
   @include sidenav-theme($theme);
   @include search-bar-theme($theme);
   @include title-nav-theme($theme);
+  @include filter-theme($theme);
 }
 
 //.light-theme {
