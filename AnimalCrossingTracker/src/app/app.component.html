@@ -1,16 +1,21 @@
 <mat-toolbar class="toolbar mat-elevation-z5" [color]="'accent'">
-  <div class="title">
+
+  <div *ngIf="isMobile" class="title">
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
-    <div *ngIf="!isMobile">
-      Animal Crossing Critter Tracker
+  </div>
+  <div *ngIf="!isMobile" class="title">
+    <div>
+      Animal Crossing Critters
     </div>
+    <app-title-nav></app-title-nav>
+
   </div>
 </mat-toolbar>
 
 <mat-sidenav-container class="content-container">
-  <mat-sidenav #sidenav [mode]="sideNavMode" [opened]="isOpened" class="sidenav">
+  <mat-sidenav #sidenav [mode]="sideNavMode" [opened]="isOpened && isMobile" class="sidenav">
     <app-sidenav></app-sidenav>
   </mat-sidenav>
   <mat-sidenav-content #content>

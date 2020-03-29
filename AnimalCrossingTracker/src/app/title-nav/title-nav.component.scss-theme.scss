@@ -1,0 +1,18 @@
+@import '~@angular/material/theming';
+
+@mixin title-nav-theme($theme) {
+  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+  $background: map-get($theme, background);
+  $foreground: map-get($theme, foreground);
+
+  .button {
+    background-color: mat-color($accent);
+    color: mat-color($accent, '100-contrast');
+  }
+
+  .selected {
+    background-color: mat-color($primary, lighter);
+    color: mat-color($primary, '500-contrast');
+  }
+}

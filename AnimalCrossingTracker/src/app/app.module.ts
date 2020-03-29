@@ -47,6 +47,7 @@ import { FishComponent } from './fish/fish.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { TimesComponent } from './times/times.component';
 import { FilterComponent } from './filter/filter.component';
+import { TitleNavComponent } from './title-nav/title-nav.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { FilterComponent } from './filter/filter.component';
     SidenavComponent,
     TimesComponent,
     FilterComponent,
+    TitleNavComponent,
   ],
   imports: [
     BrowserModule,
