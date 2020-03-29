@@ -1,43 +1,5 @@
 <div class="inner-content-container wrapper">
-  <div class="content">
-    <app-filter class="filter" [(selectedName)]="searchBar" [(selectedMonths)]="selectedMonths"
-      [(selectedTimes)]="selectedTimes" [(selectedHemisphere)]="selectedHemisphere" [(hideCaptured)]="hideCaptured"
-      (valueChanged)="updateFilter()" (resetFilter)="resetFilter()">
+  <app-critter-display [critters]="fishes" [type]="'fish'">
 
-    </app-filter>
-    <div class="card-container">
-      <div *ngFor="let fish of filteredFish" class="critter-card my-card mat-elevation-z8">
-        <div class="image-container">
-          <img class="image" [src]="fishService.getImagePath(fish)" />
-        </div>
-
-        <div class="my-card-description">
-          <div style="font-size: 1.15rem;">
-            {{fish.Name}}
-          </div>
-          <div class="critter-details">
-            <div>
-              Location: {{fish.Location}}
-            </div>
-            <div class="">
-              Time of day: {{fish.Time}}
-            </div>
-          </div>
-          <!-- <app-times [times]="fish.TimeList" ></app-times> -->
-          <div style="font-size: 0.75rem; margin-top: 5px">
-            <mat-chip-list aria-label="Fish selection">
-              <mat-chip class="my-chip-xs" *ngFor="let month of monthsToDisplay(fish)"
-                [style.background-color]="getMonthColor(month)">{{month}}</mat-chip>
-            </mat-chip-list>
-          </div>
-        </div>
-
-        <div class="checkbox-container">
-          <mat-checkbox [checked]="hasFish(fish)" (change)="ownershipChange(fish)">
-
-          </mat-checkbox>
-        </div>
-      </div>
-    </div>
-  </div>
+  </app-critter-display>
 </div>

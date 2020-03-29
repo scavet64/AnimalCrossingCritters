@@ -51,6 +51,7 @@ import { TitleNavComponent } from './title-nav/title-nav.component';
 import { BugsComponent } from './bugs/bugs.component';
 import { ImagePipe } from './images/image.pipe';
 import { ImagePreloadDirective } from './images/image-preload.directive';
+import { CritterDisplayComponent } from './critter-display/critter-display.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { ImagePreloadDirective } from './images/image-preload.directive';
     BugsComponent,
     ImagePipe,
     ImagePreloadDirective,
+    CritterDisplayComponent,
   ],
   imports: [
     BrowserModule,
