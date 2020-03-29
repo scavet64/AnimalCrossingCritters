@@ -81,7 +81,7 @@ export class CritterDisplayComponent implements OnInit {
     }
 
     let contains = false;
-    if (this.selectedHemisphere === "Northern") {
+    if (this.selectedHemisphere === 'Northern') {
       this.selectedMonths.forEach(month => {
         if (critter.NorthHemisphere.includes(month)) {
           contains = true;
@@ -135,7 +135,7 @@ export class CritterDisplayComponent implements OnInit {
   }
 
   monthsToDisplay(critter: Critter) {
-    if (this.selectedHemisphere === "Northern") {
+    if (this.selectedHemisphere === 'Northern') {
       return critter.NorthHemisphere;
     } else {
       return critter.SouthHemisphere;
