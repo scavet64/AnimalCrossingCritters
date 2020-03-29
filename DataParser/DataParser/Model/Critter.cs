@@ -11,6 +11,7 @@ namespace DataParser
         public string Location { get; set; }
         public string Value { get; set; }
         public string Time { get; set; }
+        public List<string> TimeList { get; set; }
         public string Month { get; set; }
         public List<string> NorthHemisphere { get; set; }
         public List<string> SouthHemisphere { get; set; }

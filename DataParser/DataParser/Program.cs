@@ -28,10 +28,40 @@ namespace DataParser
             "December"
         };
 
+        private static List<string> Times = new List<string>()
+        {
+            "1 a.m.",
+            "2 a.m.",
+            "3 a.m.",
+            "4 a.m.",
+            "5 a.m.",
+            "6 a.m.",
+            "7 a.m.",
+            "8 a.m.",
+            "9 a.m.",
+            "10 a.m.",
+            "11 a.m.",
+            "12 a.m.",
+            "1 p.m.",
+            "2 p.m.",
+            "3 p.m.",
+            "4 p.m.",
+            "5 p.m.",
+            "6 p.m.",
+            "7 p.m.",
+            "8 p.m.",
+            "9 p.m.",
+            "10 p.m.",
+            "11 p.m.",
+            "12 p.m."
+        };
+
         static void Main(string[] args)
         {
             ConvertType<Fish>(@"C:\Users\vstro\Desktop\Animal Crossing\Fish.json", @"C:\Users\vstro\Desktop\Animal Crossing\FishCustom.json");
+            Console.WriteLine("Finished Processing Fish\n\n");
             ConvertType<Critter>(@"C:\Users\vstro\Desktop\Animal Crossing\Bugs.json", @"C:\Users\vstro\Desktop\Animal Crossing\BugsCustom.json");
+            Console.WriteLine("Finished Processing Bugs\n\n");
 
             Console.WriteLine("Done!");
         }
@@ -41,17 +71,17 @@ namespace DataParser
         {
             string data = File.ReadAllText(dataPath);
 
-            T[] fishArray = JsonConvert.DeserializeObject<T[]>(data);
+            T[] critterArray = JsonConvert.DeserializeObject<T[]>(data);
 
-            foreach (T fish in fishArray)
+            foreach (T critter in critterArray)
             {
-                ConvertMonthsToData(fish);
-                Console.WriteLine($"processed: {fish.Name}");
+                ConvertMonthsToData(critter);
+                critter.TimeList = GetTimeOfDay(critter);
+                Console.WriteLine($"processed: {critter.Name}");
             }
 
-            string updatedFishJson = JsonConvert.SerializeObject(fishArray, Formatting.Indented);
+            string updatedFishJson = JsonConvert.SerializeObject(critterArray, Formatting.Indented);
             File.WriteAllText(customPath, updatedFishJson);
-            Console.WriteLine("Finished Processing Fish\n\n");
         }
 
         private static void ConvertMonthsToData(Critter critter)
@@ -78,7 +108,7 @@ namespace DataParser
 
             foreach (Match match in rgx.Matches(hemisphereText))
             {
-                
+
 
                 string[] monthsArray = match.Value.Split('-');
 
@@ -110,6 +140,58 @@ namespace DataParser
                 }
             }
             return monthsList;
+        }
+
+        private static List<string> GetTimeOfDay(Critter critter)
+        {
+            List<string> timeOfDay = new List<string>();
+
+            if (critter.Time == "All day")
+            {
+                return Times;
+            }
+            else
+            {
+                string pattern = @"(\d \w.\w.) - (\d \w.\w.)";
+                Regex rgx = new Regex(pattern);
+
+                foreach (Match match in rgx.Matches(critter.Time))
+                {
+
+                    if (match.Groups.Count != 3)
+                    {
+                        Console.WriteLine($"Invalid regex matches for time: {critter.Time}");
+                        throw new Exception();
+                    }
+
+                    string firstTime = match.Groups[1].Value;
+                    string secondTime = match.Groups[2].Value;
+
+                    bool finished = false;
+                    int currentIndex = Times.IndexOf(firstTime);
+                    while (!finished)
+                    {
+                        if (currentIndex >= Times.Count)
+                        {
+                            currentIndex = 0;
+                        }
+                        string monthAtIndex = Times[currentIndex];
+                        if (monthAtIndex == secondTime)
+                        {
+                            // Found the end of the range
+                            finished = true;
+                            timeOfDay.Add(secondTime);
+                        }
+                        else
+                        {
+                            timeOfDay.Add(monthAtIndex);
+                        }
+                        currentIndex++;
+                    }
+                }
+            }
+
+            return timeOfDay;
         }
     }
 }
