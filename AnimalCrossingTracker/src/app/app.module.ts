@@ -43,10 +43,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { FishComponent } from './fish/fish.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    FishComponent,
+    SearchBarComponent,
     SidenavComponent,
   ],
   imports: [

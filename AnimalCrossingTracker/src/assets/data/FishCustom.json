@@ -1,0 +1,2091 @@
+[
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 1,
+    "Name": "Bitterling",
+    "Location": "River",
+    "Value": "900",
+    "Time": "All day",
+    "Month": "November-March (Northern) / May-September (Southern)",
+    "NorthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "SouthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 2,
+    "Name": "Pale Chub",
+    "Location": "River",
+    "Value": "160",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 3,
+    "Name": "Crucian Carp",
+    "Location": "River",
+    "Value": "160",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 4,
+    "Name": "Dace",
+    "Location": "River",
+    "Value": "240",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 5,
+    "Name": "Carp",
+    "Location": "Pond",
+    "Value": "300",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 6,
+    "Name": "Koi",
+    "Location": "Pond",
+    "Value": "4,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 7,
+    "Name": "Goldfish",
+    "Location": "Pond",
+    "Value": "1,300",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 8,
+    "Name": "Pop-eyed Goldfish",
+    "Location": "Pond",
+    "Value": "1,300",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 9,
+    "Name": "Ranchu Goldfish",
+    "Location": "Pond",
+    "Value": "4,500",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 10,
+    "Name": "Killifish",
+    "Location": "Pond",
+    "Value": "300",
+    "Time": "All day",
+    "Month": "April-August (Northern) / October-February (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 11,
+    "Name": "Crawfish",
+    "Location": "Pond",
+    "Value": "200",
+    "Time": "All day",
+    "Month": "April-September (Northern) / October-March (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 12,
+    "Name": "Soft-shelled Turtle",
+    "Location": "River",
+    "Value": "3,750",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "August-September (Northern) / February-March (Southern)",
+    "NorthHemisphere": [
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "X Large",
+    "CritterNumber": 13,
+    "Name": "Snapping Turtle",
+    "Location": "River",
+    "Value": "5,000",
+    "Time": "9 a.m. - 4 a.m.",
+    "Month": "April-October (Northern) / October-April (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 14,
+    "Name": "Tadpole",
+    "Location": "Pond",
+    "Value": "100",
+    "Time": "All day",
+    "Month": "March-July (Northern) / September-January (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 15,
+    "Name": "Frog",
+    "Location": "Pond",
+    "Value": "120",
+    "Time": "All day",
+    "Month": "May-August (Northern) / November-February (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 16,
+    "Name": "Freshwater Goby",
+    "Location": "River",
+    "Value": "400",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 17,
+    "Name": "Loach",
+    "Location": "River",
+    "Value": "400",
+    "Time": "All day",
+    "Month": "March-May (Northern) / September-November (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 18,
+    "Name": "Catfish",
+    "Location": "Pond",
+    "Value": "800",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "May-October (Northern) / November-April (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "X Large",
+    "CritterNumber": 19,
+    "Name": "Giant Snakehead",
+    "Location": "Pond",
+    "Value": "5,500",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "June-August (Northern) / December-February (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 20,
+    "Name": "Bluegill",
+    "Location": "River",
+    "Value": "180",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 21,
+    "Name": "Yellow Perch",
+    "Location": "River",
+    "Value": "300",
+    "Time": "All day",
+    "Month": "October-March (Northern) / April-September (Southern)",
+    "NorthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "SouthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 22,
+    "Name": "Black Bass",
+    "Location": "River",
+    "Value": "400",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 23,
+    "Name": "Tilapia",
+    "Location": "River",
+    "Value": "800",
+    "Time": "All day",
+    "Month": "June-October (Northern) / December-April (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "X Large",
+    "CritterNumber": 24,
+    "Name": "Pike",
+    "Location": "River",
+    "Value": "1,800",
+    "Time": "All day",
+    "Month": "September-December (Northern) / March-June (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 25,
+    "Name": "Pond Smelt",
+    "Location": "River",
+    "Value": "500",
+    "Time": "All day",
+    "Month": "December-February (Northern) / June-August (Southern)",
+    "NorthHemisphere": [
+      "December",
+      "January",
+      "February"
+    ],
+    "SouthHemisphere": [
+      "June",
+      "July",
+      "August"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 26,
+    "Name": "Sweetfish",
+    "Location": "River",
+    "Value": "900",
+    "Time": "All day",
+    "Month": "July-September (Northern) / January-March (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 27,
+    "Name": "Cherry Salmon",
+    "Location": "River (Clifftop)",
+    "Value": "1,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "March-June, September-November (Northern) / March-May, September-December (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 28,
+    "Name": "Char",
+    "Location": "River (Clifftop)/Pond",
+    "Value": "3,800",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "March-June, September-November (Northern) / March-May, September-December (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 29,
+    "Name": "Golden Trout",
+    "Location": "River (Clifftop)",
+    "Value": "15,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "March-June, September-November (Northern) / March-May, September-December (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Largest",
+    "CritterNumber": 30,
+    "Name": "Stringfish",
+    "Location": "River (Clifftop)",
+    "Value": "15,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "December-March (Northern) / June-September (Southern)",
+    "NorthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "SouthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 31,
+    "Name": "Salmon",
+    "Location": "River (mouth)",
+    "Value": "700",
+    "Time": "All day",
+    "Month": "September (Northern) / March (Southern)",
+    "NorthHemisphere": [],
+    "SouthHemisphere": []
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 32,
+    "Name": "King Salmon",
+    "Location": "River (mouth)",
+    "Value": "1,800",
+    "Time": "All day",
+    "Month": "September (Northern) / March (Southern)",
+    "NorthHemisphere": [],
+    "SouthHemisphere": []
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 33,
+    "Name": "Mitten Crab",
+    "Location": "River",
+    "Value": "2,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "September-November (Northern) / March-May (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 34,
+    "Name": "Guppy",
+    "Location": "River",
+    "Value": "1,300",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "April-November (Northern) / October-May (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 35,
+    "Name": "Nibble Fish",
+    "Location": "River",
+    "Value": "1,500",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "May-September (Northern) / November-March (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 36,
+    "Name": "Angelfish",
+    "Location": "River",
+    "Value": "3,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "May-October (Northern) / November-April (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 37,
+    "Name": "Betta",
+    "Location": "River",
+    "Value": "2,500",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "May-October (Northern) / November-April (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 38,
+    "Name": "Neon Tetra",
+    "Location": "River",
+    "Value": "500",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "April-November (Northern) / October-May (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 39,
+    "Name": "Rainbowfish",
+    "Location": "River",
+    "Value": "800",
+    "Time": "9 a.m. - 4 p.m.",
+    "Month": "May-October (Northern) / November-April (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 40,
+    "Name": "Piranha",
+    "Location": "River",
+    "Value": "2,500",
+    "Time": "9 a.m. - 4 p.m., 9 p.m. - 4 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 41,
+    "Name": "Arowana",
+    "Location": "River",
+    "Value": "10,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "X Large",
+    "CritterNumber": 42,
+    "Name": "Dorado",
+    "Location": "River",
+    "Value": "15,000",
+    "Time": "4 a.m. - 9 p.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Largest",
+    "CritterNumber": 43,
+    "Name": "Gar",
+    "Location": "Pond",
+    "Value": "6,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Largest",
+    "CritterNumber": 44,
+    "Name": "Arapaima",
+    "Location": "River",
+    "Value": "10,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 45,
+    "Name": "Saddled Bichir",
+    "Location": "River",
+    "Value": "4,000",
+    "Time": "9 p.m. - 4 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Largest",
+    "CritterNumber": 46,
+    "Name": "Sturgeon",
+    "Location": "River (mouth)",
+    "Value": "10,000",
+    "Time": "All day",
+    "Month": "September-March (Northern) / March-September (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 47,
+    "Name": "Sea Butterfly",
+    "Location": "Sea",
+    "Value": "1,000",
+    "Time": "All day",
+    "Month": "December-March (Northern) / June-September (Southern)",
+    "NorthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "SouthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 48,
+    "Name": "Sea Horse",
+    "Location": "Sea",
+    "Value": "1,100",
+    "Time": "All day",
+    "Month": "April-November (Northern) / October-May (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "ShadowSize": "Smallest",
+    "CritterNumber": 49,
+    "Name": "Clown Fish",
+    "Location": "Sea",
+    "Value": "650",
+    "Time": "All day",
+    "Month": "April-September (Northern) / October-March (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 50,
+    "Name": "Surgeonfish",
+    "Location": "Sea",
+    "Value": "1,000",
+    "Time": "All day",
+    "Month": "April-September (Northern) / October-March (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 51,
+    "Name": "Butterfly Fish",
+    "Location": "Sea",
+    "Value": "1,000",
+    "Time": "All day",
+    "Month": "April-September (Northern) / October-March (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Largest",
+    "CritterNumber": 52,
+    "Name": "Napoleonfish",
+    "Location": "Sea",
+    "Value": "10,000",
+    "Time": "4 a.m. - 9 p.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 53,
+    "Name": "Zebra Turkeyfish",
+    "Location": "Sea",
+    "Value": "500",
+    "Time": "All day",
+    "Month": "April-November (Northern) / October-May (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 54,
+    "Name": "Blowfish",
+    "Location": "Sea",
+    "Value": "5,000",
+    "Time": "6 p.m. - 4 a.m.",
+    "Month": "November-February (Northern) / May-August (Southern)",
+    "NorthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "SouthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 55,
+    "Name": "Puffer Fish",
+    "Location": "Sea",
+    "Value": "250",
+    "Time": "All day",
+    "Month": "July-September (Northern) / January-March (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 56,
+    "Name": "Anchovy",
+    "Location": "Sea",
+    "Value": "200",
+    "Time": "4 a.m. - 9 p.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 57,
+    "Name": "Horse Mackerel",
+    "Location": "Sea",
+    "Value": "150",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 58,
+    "Name": "Barred Knifejaw",
+    "Location": "Sea",
+    "Value": "5,000",
+    "Time": "All day",
+    "Month": "March-November (Northern) / September-May (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "ShadowSize": "X Large",
+    "CritterNumber": 59,
+    "Name": "Sea Bass",
+    "Location": "Sea",
+    "Value": "400",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 60,
+    "Name": "Red Snapper",
+    "Location": "Sea",
+    "Value": "3,000",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 61,
+    "Name": "Dab",
+    "Location": "Sea",
+    "Value": "300",
+    "Time": "All day",
+    "Month": "October-April (Northern) / April-October (Southern)",
+    "NorthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "SouthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 62,
+    "Name": "Olive Flounder",
+    "Location": "Sea",
+    "Value": "800",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Medium",
+    "CritterNumber": 63,
+    "Name": "Squid",
+    "Location": "Sea",
+    "Value": "500",
+    "Time": "All day",
+    "Month": "December-August (Northern) / June-February (Southern)",
+    "NorthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ]
+  },
+  {
+    "ShadowSize": "X Large",
+    "CritterNumber": 64,
+    "Name": "Moray Eel",
+    "Location": "Sea",
+    "Value": "2,000",
+    "Time": "All day",
+    "Month": "August-October (Northern) / February-April (Southern)",
+    "NorthHemisphere": [
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "Narrow",
+    "CritterNumber": 65,
+    "Name": "Ribbon Eel",
+    "Location": "Sea",
+    "Value": "600",
+    "Time": "All day",
+    "Month": "June-October (Northern) / December-April (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "X Large",
+    "CritterNumber": 66,
+    "Name": "Tuna",
+    "Location": "Pier",
+    "Value": "7,000",
+    "Time": "All day",
+    "Month": "November-April (Northern) / May-October (Southern)",
+    "NorthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "SouthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ]
+  },
+  {
+    "ShadowSize": "X Large",
+    "CritterNumber": 67,
+    "Name": "Blue Marlin",
+    "Location": "Pier",
+    "Value": "10,000",
+    "Time": "All day",
+    "Month": "July-September, November-April (Northern) / January-March, May-November (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August",
+      "September",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 68,
+    "Name": "Giant Trevally",
+    "Location": "Pier",
+    "Value": "4,500",
+    "Time": "All day",
+    "Month": "May-October (Northern) / November-April (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 69,
+    "Name": "Mahi-mahi",
+    "Location": "Sea",
+    "Value": "6,000",
+    "Time": "All day",
+    "Month": "May-October (Northern) / November-April (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "ShadowSize": "Largest (Fin)",
+    "CritterNumber": 70,
+    "Name": "Ocean Sunfish",
+    "Location": "Sea",
+    "Value": "4,000",
+    "Time": "4 a.m. - 9 p.m.",
+    "Month": "July-September (Northern) / January-March (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "X Large",
+    "CritterNumber": 71,
+    "Name": "Ray",
+    "Location": "Sea",
+    "Value": "3,000",
+    "Time": "4 a.m. - 9 p.m.",
+    "Month": "August-November (Northern) / February-May (Southern)",
+    "NorthHemisphere": [
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "ShadowSize": "Largest (Fin)",
+    "CritterNumber": 72,
+    "Name": "Saw Shark",
+    "Location": "Sea",
+    "Value": "12,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Largest (Fin)",
+    "CritterNumber": 73,
+    "Name": "Hammerhead Shark",
+    "Location": "Sea",
+    "Value": "8,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Largest (Fin)",
+    "CritterNumber": 74,
+    "Name": "Great White Shark",
+    "Location": "Sea",
+    "Value": "15,000",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Largest (Fin)",
+    "CritterNumber": 75,
+    "Name": "Whale Shark",
+    "Location": "Sea",
+    "Value": "13,000",
+    "Time": "All day",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "(Fin)",
+    "CritterNumber": 76,
+    "Name": "Suckerfish",
+    "Location": "Sea",
+    "Value": "1,500",
+    "Time": "All day",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "ShadowSize": "Large",
+    "CritterNumber": 77,
+    "Name": "Football Fish",
+    "Location": "Sea",
+    "Value": "2,500",
+    "Time": "4 p.m. - 9 a.m.",
+    "Month": "November-March (Northern) / May-September (Southern)",
+    "NorthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "SouthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ]
+  },
+  {
+    "ShadowSize": "Largest",
+    "CritterNumber": 78,
+    "Name": "Oarfish",
+    "Location": "Sea",
+    "Value": "9,000",
+    "Time": "All day",
+    "Month": "December-May (Northern) / June-November (Southern)",
+    "NorthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ],
+    "SouthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ]
+  },
+  {
+    "ShadowSize": "Small",
+    "CritterNumber": 79,
+    "Name": "Barreleye",
+    "Location": "Sea",
+    "Value": "15,000",
+    "Time": "9 p.m. - 4 a.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "ShadowSize": "Largest",
+    "CritterNumber": 80,
+    "Name": "Coelacanth",
+    "Location": "Sea (rainy days)",
+    "Value": "15,000",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  }
+]

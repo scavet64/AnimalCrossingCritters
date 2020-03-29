@@ -1,0 +1,7 @@
+<div class="search-wrapper mat-elevation-z2 theme"
+  [ngClass]="{'small-wrapper': !expanded, 'expanded-wrapper': expanded}">
+  <i class="fas fa-search" (click)=clicked()></i>
+  <input type="search" class="search-input theme" [placeholder]="placeholder" [value]="query"
+    (keyup)="onKeyDown($event)">
+</div>
+

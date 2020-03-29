@@ -1,0 +1,63 @@
+@import '~@angular/material/theming';
+
+.wrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // flex-wrap: wrap;
+}
+
+.critter-card {
+  // width: 450px;
+  margin: 10px;
+}
+
+.my-card {
+  width: 100%;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.my-card-description {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.image {
+  height: 50px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.critter-details {
+  font-size: 0.85rem;
+  display: flex;
+  //justify-content: space-evenly;
+  width: 100%;
+}
+
+.datum {
+  margin-left: 10px;
+}
+
+.checkbox-container {
+  margin:20px;
+}

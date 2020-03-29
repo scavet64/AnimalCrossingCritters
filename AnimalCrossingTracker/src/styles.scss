@@ -9,10 +9,12 @@
 
 @import './src/app/app.component.scss-theme.scss';
 @import './src/app/sidenav/sidenav.component.scss-theme.scss';
+@import './src/app/search-bar/search-bar.component.scss-theme.scss';
 
 @mixin my-custom-components($theme) {
   @include app-component-theme($theme);
   @include sidenav-theme($theme);
+  @include search-bar-theme($theme);
 }
 
 //.light-theme {

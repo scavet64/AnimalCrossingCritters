@@ -1,0 +1,1859 @@
+[
+  {
+    "CritterNumber": 1,
+    "Name": "Common Butterfly",
+    "Location": "Flying",
+    "Value": "160",
+    "Time": "4 a.m. - 7 p.m.",
+    "Month": "September-June (Northern) / March-December (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 2,
+    "Name": "Yellow Butterfly",
+    "Location": "Flying",
+    "Value": "160",
+    "Time": "4 a.m. - 7 p.m.",
+    "Month": "March-June, September-October (Northern) / March-April, September-December (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 3,
+    "Name": "Tiger Butterfly",
+    "Location": "Flying",
+    "Value": "240",
+    "Time": "4 a.m. - 7 p.m.",
+    "Month": "March-September (Northern) / September-March (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 4,
+    "Name": "Peacock Butterfly",
+    "Location": "Flying",
+    "Value": "2,500",
+    "Time": "4 a.m. - 7 p.m.",
+    "Month": "March-June (Northern) / September-December (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 5,
+    "Name": "Common Bluebottle",
+    "Location": "Flying",
+    "Value": "300",
+    "Time": "4 a.m. - 7 p.m.",
+    "Month": "April-August (Northern) / October-February (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 6,
+    "Name": "Paper Kite Butterfly",
+    "Location": "Flying",
+    "Value": "1,000",
+    "Time": "8 a.m. - 7 p.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 7,
+    "Name": "Great Purple Emperor",
+    "Location": "Flying",
+    "Value": "3,000",
+    "Time": "4 a.m. - 7 p.m.",
+    "Month": "May-August (Northern) / November-February (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 8,
+    "Name": "Monach Butterfly",
+    "Location": "Flying",
+    "Value": "140",
+    "Time": "4 a.m. - 5 p.m.",
+    "Month": "September-November (Northern) / March-May (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 9,
+    "Name": "Emperor Butterfly",
+    "Location": "Flying",
+    "Value": "4,000",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "June-September, December-March (Northern) / December-March, June-September (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "June",
+      "July",
+      "August",
+      "September"
+    ]
+  },
+  {
+    "CritterNumber": 10,
+    "Name": "Agrias Butterfly",
+    "Location": "Flying",
+    "Value": "3,000",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "April-September (Northern) / November-March (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 11,
+    "Name": "Raja Brooke's Birdwing",
+    "Location": "Flying",
+    "Value": "2,500",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "April-September, December-February (Northern) / November-March, June-August (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "December",
+      "January",
+      "February"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "June",
+      "July",
+      "August"
+    ]
+  },
+  {
+    "CritterNumber": 12,
+    "Name": "Queen Alexandra's Birdwing",
+    "Location": "Flying",
+    "Value": "4,000",
+    "Time": "8 a.m. - 4 p.m.",
+    "Month": "May-September (Northern) / November-March (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 13,
+    "Name": "Moth",
+    "Location": "Flying by light",
+    "Value": "130",
+    "Time": "7 p.m. - 4 a.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 14,
+    "Name": "Atlas Moth",
+    "Location": "On trees",
+    "Value": "3,000",
+    "Time": "7 p.m. - 4 a.m.",
+    "Month": "April-September (Northern) / October-March (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 15,
+    "Name": "Madagascan Sunset Moth",
+    "Location": "Flying",
+    "Value": "2,500",
+    "Time": "8 a.m. - 4 p.m.",
+    "Month": "April-September (Northern) / October-March (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 16,
+    "Name": "Long Locust",
+    "Location": "On ground",
+    "Value": "200",
+    "Time": "8 a.m. - 7 p.m.",
+    "Month": "April-November (Northern) / November-May (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 17,
+    "Name": "Migratory Locust",
+    "Location": "On ground",
+    "Value": "600",
+    "Time": "8 a.m. - 7 p.m.",
+    "Month": "August-November (Northern) / February-May (Southern)",
+    "NorthHemisphere": [
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 18,
+    "Name": "Rice Grasshopper",
+    "Location": "On ground",
+    "Value": "160",
+    "Time": "8 a.m. - 7 p.m.",
+    "Month": "August-November (Northern) / February-May (Southern)",
+    "NorthHemisphere": [
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 19,
+    "Name": "Grasshopper",
+    "Location": "On ground",
+    "Value": "160",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "July-September (Northern) / January-March (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 20,
+    "Name": "Cricket",
+    "Location": "Dig at cricket noise",
+    "Value": "130",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "September-November (Northern) / March-May (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 21,
+    "Name": "Bell Cricket",
+    "Location": "On ground",
+    "Value": "430",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "September-October (Northern) / March-April (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April"
+    ]
+  },
+  {
+    "CritterNumber": 22,
+    "Name": "Mantis",
+    "Location": "On flowers",
+    "Value": "430",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "March-November (Northern) / September-May (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 23,
+    "Name": "Orchid Mantis",
+    "Location": "On white flowers",
+    "Value": "2,400",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "March-November (Northern) / September-May (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 24,
+    "Name": "Honeybee",
+    "Location": "Flying",
+    "Value": "200",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "March-July (Northern) / March-July (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July"
+    ]
+  },
+  {
+    "CritterNumber": 25,
+    "Name": "Wasp",
+    "Location": "Falls from shaking trees",
+    "Value": "2,500",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 26,
+    "Name": "Brown Cicada",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 27,
+    "Name": "Robust Cicada",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 28,
+    "Name": "Giant Cicada",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 29,
+    "Name": "Walker Cicada",
+    "Location": "On trees",
+    "Value": "400",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "August-September (Northern) / February-March (Southern)",
+    "NorthHemisphere": [
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 30,
+    "Name": "Evening Cicada",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "4 a.m. - 8 a.m., 4 p.m. - 7 p.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 31,
+    "Name": "Cicada Shell",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "All day",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 32,
+    "Name": "Red Dragonfly",
+    "Location": "Flying",
+    "Value": "180",
+    "Time": "8 a.m. - 7 p.m.",
+    "Month": "September-October (Northern) / March-April (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April"
+    ]
+  },
+  {
+    "CritterNumber": 33,
+    "Name": "Darner Dragonfly",
+    "Location": "Flying",
+    "Value": "230",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "April-October (Northern) / October-April (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "CritterNumber": 34,
+    "Name": "Banded Dragonfly",
+    "Location": "Flying",
+    "Value": "4,500",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "May-October (Northern) / November-April (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "CritterNumber": 35,
+    "Name": "Damselfly",
+    "Location": "Flying",
+    "Value": "",
+    "Time": "All day",
+    "Month": "November-February (Northern) / May-August (Southern)",
+    "NorthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "SouthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August"
+    ]
+  },
+  {
+    "CritterNumber": 36,
+    "Name": "Firefly",
+    "Location": "Flying",
+    "Value": "",
+    "Time": "7 p.m. - 4 a.m.",
+    "Month": "June (Northern) / December (Southern)",
+    "NorthHemisphere": [],
+    "SouthHemisphere": []
+  },
+  {
+    "CritterNumber": 37,
+    "Name": "Mole Cricket",
+    "Location": "Underground",
+    "Value": "500",
+    "Time": "All day",
+    "Month": "November-May (Northern) / May-November (Southern)",
+    "NorthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ],
+    "SouthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ]
+  },
+  {
+    "CritterNumber": 38,
+    "Name": "Pondskater",
+    "Location": "Ponds",
+    "Value": "130",
+    "Time": "8 a.m. - 7 p.m.",
+    "Month": "May-September (Northern) / November-March (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 39,
+    "Name": "Diving Beetle",
+    "Location": "Ponds and rivers",
+    "Value": "800",
+    "Time": "8 a.m. - 7 p.m.",
+    "Month": "May-September (Northern) / November-March (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 40,
+    "Name": "Giant Water Bug",
+    "Location": "Ponds and rivers",
+    "Value": "2,000",
+    "Time": "7 p.m. - 8 a.m.",
+    "Month": "April-September (Northern) / October-March (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 41,
+    "Name": "Stinkbug",
+    "Location": "On flowers",
+    "Value": "120",
+    "Time": "All day",
+    "Month": "March-November (Northern) / September-May (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 42,
+    "Name": "Man-faced Stink Bug",
+    "Location": "On flowers",
+    "Value": "1,000",
+    "Time": "7 p.m. - 8 a.m.",
+    "Month": "March-November (Northern) / September-May (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 43,
+    "Name": "Ladybug",
+    "Location": "On flowers",
+    "Value": "200",
+    "Time": "8 a.m. - 5 p.m.",
+    "Month": "March-June, October (Northern) / September-December, April (Southern)",
+    "NorthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June"
+    ],
+    "SouthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 44,
+    "Name": "Tiger Beetle",
+    "Location": "On ground",
+    "Value": "1,500",
+    "Time": "All day",
+    "Month": "February-November (Northern) / August-May (Southern)",
+    "NorthHemisphere": [
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 45,
+    "Name": "Jewel Beetle",
+    "Location": "On trees",
+    "Value": "2,400",
+    "Time": "All day",
+    "Month": "April-August (Northern) / October-February (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 46,
+    "Name": "Violin Beetle",
+    "Location": "On tree stumps",
+    "Value": "450",
+    "Time": "All day",
+    "Month": "May-June, September-November (Northern) / November-December, March-April (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "March",
+      "April"
+    ]
+  },
+  {
+    "CritterNumber": 47,
+    "Name": "Citrus Long-horned Beetle",
+    "Location": "On tree stumps",
+    "Value": "350",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 48,
+    "Name": "Rosalia Batesi Beetle",
+    "Location": "On tree stumps",
+    "Value": "3,000",
+    "Time": "All day",
+    "Month": "May-September (Northern) / November-March (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 49,
+    "Name": "Blue Weevil Beetle",
+    "Location": "",
+    "Value": "",
+    "Time": "All day",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 50,
+    "Name": "Dung Beetle",
+    "Location": "Pushing snowballs",
+    "Value": "",
+    "Time": "",
+    "Month": "December-February (Northern) / June-August (Southern)",
+    "NorthHemisphere": [
+      "December",
+      "January",
+      "February"
+    ],
+    "SouthHemisphere": [
+      "June",
+      "July",
+      "August"
+    ]
+  },
+  {
+    "CritterNumber": 51,
+    "Name": "Earth-boring Dung Beetle",
+    "Location": "On ground",
+    "Value": "300",
+    "Time": "All day",
+    "Month": "July-September (Northern) / January-March (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 52,
+    "Name": "Scarab Beetle",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "11 p.m. - 8 a.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 53,
+    "Name": "Drone Beetle",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "All day",
+    "Month": "June-August (Northern) / December-February (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 54,
+    "Name": "Goliath Beetle",
+    "Location": "On trees",
+    "Value": "8,000",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 55,
+    "Name": "Saw Stag",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "All day",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 56,
+    "Name": "Miyama Stag",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "All day",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 57,
+    "Name": "Giant Stag",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "11 p.m. - 8 a.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 58,
+    "Name": "Rainbow Stag",
+    "Location": "On trees",
+    "Value": "6,000",
+    "Time": "7 p.m. - 8 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 59,
+    "Name": "Cyclommatus Stag",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 60,
+    "Name": "Golden Stag",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 61,
+    "Name": "Giraffe Stag",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 62,
+    "Name": "Horned Dynastid",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 63,
+    "Name": "Horned Atlas",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 64,
+    "Name": "Horned Elephant",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 65,
+    "Name": "Horned Herucles",
+    "Location": "On trees",
+    "Value": "",
+    "Time": "5 p.m. - 8 a.m.",
+    "Month": "July-August (Northern) / January-February (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February"
+    ]
+  },
+  {
+    "CritterNumber": 66,
+    "Name": "Walking Stick",
+    "Location": "Falls from shaking trees",
+    "Value": "",
+    "Time": "4 a.m. - 8 a.m., 5 p.m. - 7 p.m.",
+    "Month": "July-November (Northern) / January-May (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 67,
+    "Name": "Walking Leaf",
+    "Location": "Near trees, disguised as furniture leaf",
+    "Value": "600",
+    "Time": "All day",
+    "Month": "July-August (Northern) / January-March (Southern)",
+    "NorthHemisphere": [
+      "July",
+      "August"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 68,
+    "Name": "Bagworm",
+    "Location": "Falls from shaking trees",
+    "Value": "600",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 69,
+    "Name": "Ant",
+    "Location": "On rotten food",
+    "Value": "",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 70,
+    "Name": "Hermit Crab",
+    "Location": "Beach",
+    "Value": "1,000",
+    "Time": "7 p.m. - 8 a.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 71,
+    "Name": "Wharf Roach",
+    "Location": "On rocks at beach",
+    "Value": "200",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 72,
+    "Name": "Fly",
+    "Location": "On trash items",
+    "Value": "",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 73,
+    "Name": "Mosquito",
+    "Location": "Flying",
+    "Value": "130",
+    "Time": "5 p.m. - 4 a.m.",
+    "Month": "June-September (Northern) / December-March (Southern)",
+    "NorthHemisphere": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "SouthHemisphere": [
+      "December",
+      "January",
+      "February",
+      "March"
+    ]
+  },
+  {
+    "CritterNumber": 74,
+    "Name": "Flea",
+    "Location": "On villagers",
+    "Value": "",
+    "Time": "All day",
+    "Month": "April-November (Northern) / October-May (Southern)",
+    "NorthHemisphere": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "SouthHemisphere": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+    ]
+  },
+  {
+    "CritterNumber": 75,
+    "Name": "Snail",
+    "Location": "On rocks (raining)",
+    "Value": "250",
+    "Time": "All day",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 76,
+    "Name": "Pill Bug",
+    "Location": "Hit rocks",
+    "Value": "250",
+    "Time": "11 p.m. - 4 p.m.",
+    "Month": "September-June (Northern) / March-December (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 77,
+    "Name": "Centipede",
+    "Location": "Hit rocks",
+    "Value": "300",
+    "Time": "4 p.m. - 11 p.m.",
+    "Month": "September-June (Northern) / March-December (Southern)",
+    "NorthHemisphere": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June"
+    ],
+    "SouthHemisphere": [
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 78,
+    "Name": "Spider",
+    "Location": "Falls from shaking trees",
+    "Value": "480",
+    "Time": "7 p.m. - 8 a.m.",
+    "Month": "Year-round (Northern and Southern)",
+    "NorthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "SouthHemisphere": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  {
+    "CritterNumber": 79,
+    "Name": "Tarantula",
+    "Location": "On ground",
+    "Value": "8,000",
+    "Time": "7 p.m. - 4 a.m.",
+    "Month": "November-April (Northern) / May-October (Southern)",
+    "NorthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "SouthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ]
+  },
+  {
+    "CritterNumber": 80,
+    "Name": "Scorpion",
+    "Location": "On ground",
+    "Value": "8,000",
+    "Time": "7 p.m. - 4 a.m.",
+    "Month": "May-October (Northern) / November-April (Southern)",
+    "NorthHemisphere": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "SouthHemisphere": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April"
+    ]
+  }
+]
