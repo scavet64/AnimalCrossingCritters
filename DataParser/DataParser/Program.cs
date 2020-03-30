@@ -1,4 +1,4 @@
-﻿using DataParser.Model;
+using DataParser.Model;
 using HtmlAgilityPack;
 using Newtonsoft.Json;
 using System;
@@ -30,6 +30,7 @@ namespace DataParser
 
         private static List<string> Times = new List<string>()
         {
+            "12 a.m.",
             "1 a.m.",
             "2 a.m.",
             "3 a.m.",
@@ -41,7 +42,7 @@ namespace DataParser
             "9 a.m.",
             "10 a.m.",
             "11 a.m.",
-            "12 a.m.",
+            "12 p.m.",
             "1 p.m.",
             "2 p.m.",
             "3 p.m.",
@@ -52,8 +53,7 @@ namespace DataParser
             "8 p.m.",
             "9 p.m.",
             "10 p.m.",
-            "11 p.m.",
-            "12 p.m."
+            "11 p.m."
         };
 
         static void Main(string[] args)

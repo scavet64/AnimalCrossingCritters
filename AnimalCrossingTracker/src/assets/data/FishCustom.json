@@ -7,6 +7,7 @@
     "Value": "900",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -18,7 +19,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -29,8 +30,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "November-March (Northern) / May-September (Southern)",
     "NorthHemisphere": [
@@ -59,7 +59,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -103,6 +103,7 @@
     "Value": "160",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -114,7 +115,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -125,8 +126,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "Year-round (Northern and Southern)",
     "NorthHemisphere": [
@@ -174,7 +174,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -223,6 +223,7 @@
     "Value": "300",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -234,7 +235,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -245,8 +246,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "Year-round (Northern and Southern)",
     "NorthHemisphere": [
@@ -294,7 +294,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -343,6 +343,7 @@
     "Value": "1,300",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -354,7 +355,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -365,8 +366,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "Year-round (Northern and Southern)",
     "NorthHemisphere": [
@@ -409,7 +409,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -456,7 +456,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -500,6 +500,7 @@
     "Value": "300",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -511,7 +512,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -522,8 +523,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "April-August (Northern) / October-February (Southern)",
     "NorthHemisphere": [
@@ -549,6 +549,7 @@
     "Value": "200",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -560,7 +561,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -571,8 +572,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "April-September (Northern) / October-March (Southern)",
     "NorthHemisphere": [
@@ -608,7 +608,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -640,7 +640,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -652,7 +652,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -686,6 +686,7 @@
     "Value": "100",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -697,7 +698,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -708,8 +709,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "March-July (Northern) / September-January (Southern)",
     "NorthHemisphere": [
@@ -735,6 +735,7 @@
     "Value": "120",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -746,7 +747,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -757,8 +758,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "May-August (Northern) / November-February (Southern)",
     "NorthHemisphere": [
@@ -790,7 +790,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -839,6 +839,7 @@
     "Value": "400",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -850,7 +851,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -861,8 +862,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "March-May (Northern) / September-November (Southern)",
     "NorthHemisphere": [
@@ -892,7 +892,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -932,7 +932,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -961,7 +961,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1005,6 +1005,7 @@
     "Value": "300",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1016,7 +1017,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1027,8 +1028,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "October-March (Northern) / April-September (Southern)",
     "NorthHemisphere": [
@@ -1056,6 +1056,7 @@
     "Value": "400",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1067,7 +1068,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1078,8 +1079,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "Year-round (Northern and Southern)",
     "NorthHemisphere": [
@@ -1119,6 +1119,7 @@
     "Value": "800",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1130,7 +1131,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1141,8 +1142,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "June-October (Northern) / December-April (Southern)",
     "NorthHemisphere": [
@@ -1168,6 +1168,7 @@
     "Value": "1,800",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1179,7 +1180,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1190,8 +1191,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "September-December (Northern) / March-June (Southern)",
     "NorthHemisphere": [
@@ -1215,6 +1215,7 @@
     "Value": "500",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1226,7 +1227,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1237,8 +1238,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "December-February (Northern) / June-August (Southern)",
     "NorthHemisphere": [
@@ -1260,6 +1260,7 @@
     "Value": "900",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1271,7 +1272,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1282,8 +1283,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "July-September (Northern) / January-March (Southern)",
     "NorthHemisphere": [
@@ -1313,7 +1313,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1360,7 +1360,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1407,7 +1407,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1454,7 +1454,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1487,6 +1487,7 @@
     "Value": "700",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1498,7 +1499,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1509,8 +1510,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "September (Northern) / March (Southern)",
     "NorthHemisphere": [],
@@ -1524,6 +1524,7 @@
     "Value": "1,800",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1535,7 +1536,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1546,8 +1547,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "September (Northern) / March (Southern)",
     "NorthHemisphere": [],
@@ -1569,7 +1569,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1603,7 +1603,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1642,7 +1642,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1680,7 +1680,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1720,7 +1720,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1755,7 +1755,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1794,7 +1794,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1829,7 +1829,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1837,7 +1837,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1873,7 +1873,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1914,7 +1914,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -1955,7 +1955,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -1996,7 +1996,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2032,7 +2032,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2060,6 +2060,7 @@
     "Value": "10,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2071,7 +2072,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2082,8 +2083,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "September-March (Northern) / March-September (Southern)",
     "NorthHemisphere": [
@@ -2113,6 +2113,7 @@
     "Value": "1,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2124,7 +2125,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2135,8 +2136,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "December-March (Northern) / June-September (Southern)",
     "NorthHemisphere": [
@@ -2160,6 +2160,7 @@
     "Value": "1,100",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2171,7 +2172,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2182,8 +2183,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "April-November (Northern) / October-May (Southern)",
     "NorthHemisphere": [
@@ -2215,6 +2215,7 @@
     "Value": "650",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2226,7 +2227,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2237,8 +2238,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "April-September (Northern) / October-March (Southern)",
     "NorthHemisphere": [
@@ -2266,6 +2266,7 @@
     "Value": "1,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2277,7 +2278,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2288,8 +2289,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "April-September (Northern) / October-March (Southern)",
     "NorthHemisphere": [
@@ -2317,6 +2317,7 @@
     "Value": "1,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2328,7 +2329,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2339,8 +2340,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "April-September (Northern) / October-March (Southern)",
     "NorthHemisphere": [
@@ -2376,7 +2376,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2405,6 +2405,7 @@
     "Value": "500",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2416,7 +2417,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2427,8 +2428,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "April-November (Northern) / October-May (Southern)",
     "NorthHemisphere": [
@@ -2466,7 +2466,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2494,6 +2494,7 @@
     "Value": "250",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2505,7 +2506,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2516,8 +2517,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "July-September (Northern) / January-March (Southern)",
     "NorthHemisphere": [
@@ -2547,7 +2547,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2596,6 +2596,7 @@
     "Value": "150",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2607,7 +2608,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2618,8 +2619,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "Year-round (Northern and Southern)",
     "NorthHemisphere": [
@@ -2659,6 +2659,7 @@
     "Value": "5,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2670,7 +2671,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2681,8 +2682,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "March-November (Northern) / September-May (Southern)",
     "NorthHemisphere": [
@@ -2716,6 +2716,7 @@
     "Value": "400",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2727,7 +2728,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2738,8 +2739,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "Year-round (Northern and Southern)",
     "NorthHemisphere": [
@@ -2779,6 +2779,7 @@
     "Value": "3,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2790,7 +2791,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2801,8 +2802,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "Year-round (Northern and Southern)",
     "NorthHemisphere": [
@@ -2842,6 +2842,7 @@
     "Value": "300",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2853,7 +2854,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2864,8 +2865,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "October-April (Northern) / April-October (Southern)",
     "NorthHemisphere": [
@@ -2895,6 +2895,7 @@
     "Value": "800",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2906,7 +2907,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2917,8 +2918,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "Year-round (Northern and Southern)",
     "NorthHemisphere": [
@@ -2958,6 +2958,7 @@
     "Value": "500",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -2969,7 +2970,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -2980,8 +2981,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "December-August (Northern) / June-February (Southern)",
     "NorthHemisphere": [
@@ -3015,6 +3015,7 @@
     "Value": "2,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3026,7 +3027,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3037,8 +3038,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "August-October (Northern) / February-April (Southern)",
     "NorthHemisphere": [
@@ -3060,6 +3060,7 @@
     "Value": "600",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3071,7 +3072,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3082,8 +3083,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "June-October (Northern) / December-April (Southern)",
     "NorthHemisphere": [
@@ -3109,6 +3109,7 @@
     "Value": "7,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3120,7 +3121,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3131,8 +3132,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "November-April (Northern) / May-October (Southern)",
     "NorthHemisphere": [
@@ -3160,6 +3160,7 @@
     "Value": "10,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3171,7 +3172,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3182,8 +3183,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "July-September, November-April (Northern) / January-March, May-November (Southern)",
     "NorthHemisphere": [
@@ -3218,6 +3218,7 @@
     "Value": "4,500",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3229,7 +3230,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3240,8 +3241,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "May-October (Northern) / November-April (Southern)",
     "NorthHemisphere": [
@@ -3269,6 +3269,7 @@
     "Value": "6,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3280,7 +3281,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3291,8 +3292,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "May-October (Northern) / November-April (Southern)",
     "NorthHemisphere": [
@@ -3328,7 +3328,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3367,7 +3367,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3408,7 +3408,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3449,7 +3449,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3490,7 +3490,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3523,6 +3523,7 @@
     "Value": "13,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3534,7 +3535,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3545,8 +3546,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "June-September (Northern) / December-March (Southern)",
     "NorthHemisphere": [
@@ -3570,6 +3570,7 @@
     "Value": "1,500",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3581,7 +3582,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3592,8 +3593,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "June-September (Northern) / December-March (Southern)",
     "NorthHemisphere": [
@@ -3625,7 +3625,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3660,6 +3660,7 @@
     "Value": "9,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3671,7 +3672,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3682,8 +3683,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "December-May (Northern) / June-November (Southern)",
     "NorthHemisphere": [
@@ -3714,7 +3714,7 @@
       "9 p.m.",
       "10 p.m.",
       "11 p.m.",
-      "12 p.m.",
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3758,6 +3758,7 @@
     "Value": "15,000",
     "Time": "All day",
     "TimeList": [
+      "12 a.m.",
       "1 a.m.",
       "2 a.m.",
       "3 a.m.",
@@ -3769,7 +3770,7 @@
       "9 a.m.",
       "10 a.m.",
       "11 a.m.",
-      "12 a.m.",
+      "12 p.m.",
       "1 p.m.",
       "2 p.m.",
       "3 p.m.",
@@ -3780,8 +3781,7 @@
       "8 p.m.",
       "9 p.m.",
       "10 p.m.",
-      "11 p.m.",
-      "12 p.m."
+      "11 p.m."
     ],
     "Month": "Year-round (Northern and Southern)",
     "NorthHemisphere": [
