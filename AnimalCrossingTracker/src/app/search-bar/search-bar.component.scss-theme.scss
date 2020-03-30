@@ -1,0 +1,18 @@
+@import '~@angular/material/theming';
+
+@mixin search-bar-theme($theme) {
+  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+  $background: map-get($theme, background);
+  $foreground: map-get($theme, foreground);
+
+  .theme {
+    background: mat-color($primary, lighter);
+    color: mat-color($primary, '400-contrast');
+  }
+  .theme::placeholder {
+    background: mat-color($primary, lighter);
+    color: mat-color($primary, '400-contrast');
+    opacity: 0.5;
+  }
+}

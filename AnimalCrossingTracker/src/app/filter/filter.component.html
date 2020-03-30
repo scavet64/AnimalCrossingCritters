@@ -1,0 +1,58 @@
+
+<div class="filter-container mat-elevation-z8">
+  <!-- <div class="title center">
+    Filters
+  </div> -->
+  <div>
+
+    <div class="center">
+      <mat-button-toggle-group name="Hemisphere" [value]="selectedHemisphere" (change)="hemisphereChange($event)">
+        <mat-button-toggle value="Northern">Northern</mat-button-toggle>
+        <mat-button-toggle value="Southern">Southern</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+
+
+    <mat-form-field [color]="'accent'" class="field">
+      <mat-label>Name</mat-label>
+      <input matInput [(value)]="selectedName" (keydown)="nameChange($event)">
+    </mat-form-field>
+
+    <mat-form-field [color]="'accent'" class="field">
+      <mat-label>Month</mat-label>
+      <mat-select [(value)]="selectedMonths" (selectionChange)="monthsChange($event)">
+        <mat-option *ngFor="let month of monthsList" [value]="month">{{month}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field [color]="'accent'" class="field">
+      <mat-label>Times</mat-label>
+      <mat-select multiple [(value)]="selectedTimes" (selectionChange)="timesChange($event)">
+        <mat-option *ngFor="let time of timesList" [value]="time">{{time}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div>
+      <mat-checkbox [(checked)]="hideCaptured" (change)="hideCapturedChanged($event)">
+        Hide Captured
+      </mat-checkbox>
+    </div>
+
+    <div class="center availability">
+      <mat-button-toggle-group name="availability" [value]="selectedAvailability" (change)="availabilityChanged($event)">
+        <mat-button-toggle value="Available">Available</mat-button-toggle>
+        <mat-button-toggle value="New">New</mat-button-toggle>
+        <mat-button-toggle value="Leaving">Leaving</mat-button-toggle>
+      </mat-button-toggle-group>
+      <!-- <button mat-icon-button (click)="clearAvailability()">
+        <i class="fas fa-times"></i>
+      </button> -->
+    </div>
+
+    <div class="center">
+      <button class="reset-button filter-button" mat-raised-button [color]="'accent'" (click)="resetFilters()">Clear</button>
+      <button class="filter-button" mat-raised-button [color]="'accent'" (click)="setNow()">Set Now</button>
+    </div>
+
+  </div>
+</div>

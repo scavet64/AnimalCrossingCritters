@@ -1,0 +1,21 @@
+@import '~@angular/material/theming';
+
+@mixin sidenav-theme($theme) {
+  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+  $background: map-get($theme, background);
+  $foreground: map-get($theme, foreground);
+
+  .sidenav-container {
+    color: mat-color($primary, '100-contrast');
+  }
+  .menu-item-selected {
+    background-color: mat-color($accent);
+    color: mat-color($accent, '500-contrast');
+  }
+  .theme::placeholder {
+    background: mat-color($primary, lighter);
+    color: mat-color($primary, '400-contrast');
+    opacity: 0.5;
+  }
+}

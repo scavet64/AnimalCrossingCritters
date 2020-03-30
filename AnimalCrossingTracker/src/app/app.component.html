@@ -1,0 +1,31 @@
+<mat-toolbar class="toolbar mat-elevation-z5" [color]="'accent'">
+
+  <div *ngIf="isMobile" class="title">
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <img class="logo" src="./assets/imgs/logoWW.png">
+    <div class="text">
+      Animal Crossing Critters
+    </div>
+  </div>
+  <div *ngIf="!isMobile" class="title">
+    <img class="logo" src="./assets/imgs/logoWW.png">
+    <div class="text">
+      Animal Crossing Critters
+    </div>
+    <app-title-nav></app-title-nav>
+
+  </div>
+</mat-toolbar>
+
+<mat-sidenav-container class="content-container">
+  <mat-sidenav #sidenav [mode]="sideNavMode" [opened]="isOpened && isMobile" class="sidenav">
+    <app-sidenav></app-sidenav>
+  </mat-sidenav>
+  <mat-sidenav-content #content>
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

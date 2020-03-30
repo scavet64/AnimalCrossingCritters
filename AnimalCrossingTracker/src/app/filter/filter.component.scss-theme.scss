@@ -1,0 +1,18 @@
+@import '~@angular/material/theming';
+
+@mixin filter-theme($theme) {
+  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+  $background: map-get($theme, background);
+  $foreground: map-get($theme, foreground);
+
+  .mat-button-toggle {
+    background: mat-color($primary, lighter);
+    color: mat-color($primary, '400-contrast');
+  }
+
+  .mat-button-toggle-checked {
+    background: mat-color($accent);
+    color: mat-color($accent, '400-contrast');
+  }
+}

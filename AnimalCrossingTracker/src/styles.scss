@@ -1,0 +1,83 @@
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+@import './themes/dark-theme';
+@import './themes/light-theme';
+
+@import './src/app/app.component.scss-theme.scss';
+@import './src/app/sidenav/sidenav.component.scss-theme.scss';
+@import './src/app/search-bar/search-bar.component.scss-theme.scss';
+@import './src/app/title-nav/title-nav.component.scss-theme.scss';
+@import './src/app/filter/filter.component.scss-theme.scss';
+
+@mixin my-custom-components($theme) {
+  @include app-component-theme($theme);
+  @include sidenav-theme($theme);
+  @include search-bar-theme($theme);
+  @include title-nav-theme($theme);
+  @include filter-theme($theme);
+}
+
+//.light-theme {
+  @include angular-material-theme($light-theme);
+  @include my-custom-components($light-theme);
+//}
+
+.dark-theme {
+  @include angular-material-theme($dark-theme);
+  @include my-custom-components($dark-theme);
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif
+}
+
+.inner-content-container {
+  margin: 2rem;
+}
+
+.my-chip-xs {
+  font-size: 0.7rem;
+  padding: 0px 7px !important;
+  height: 14px !important;
+  min-height: 20px !important;
+  margin: 3px !important;
+  // text-overflow: ellipsis;
+}
+
+.paginator {
+  background: transparent;
+}
+
+.ellipse-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block !important;
+}
+
+.spinner {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .inner-content-container  {
+    margin: 0rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: mat-color($accent);
+  border-radius: 10px;
+}
