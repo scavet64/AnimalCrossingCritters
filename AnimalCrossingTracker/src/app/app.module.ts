@@ -49,7 +49,6 @@ import { TimesComponent } from './times/times.component';
 import { FilterComponent } from './filter/filter.component';
 import { TitleNavComponent } from './title-nav/title-nav.component';
 import { BugsComponent } from './bugs/bugs.component';
-import { ImagePipe } from './images/image.pipe';
 import { ImagePreloadDirective } from './images/image-preload.directive';
 import { CritterDisplayComponent } from './critter-display/critter-display.component';
 
@@ -63,7 +62,6 @@ import { CritterDisplayComponent } from './critter-display/critter-display.compo
     FilterComponent,
     TitleNavComponent,
     BugsComponent,
-    ImagePipe,
     ImagePreloadDirective,
     CritterDisplayComponent,
   ],

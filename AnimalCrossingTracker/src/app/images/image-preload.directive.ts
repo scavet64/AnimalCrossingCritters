@@ -11,7 +11,7 @@ import { Directive, Input, HostBinding } from '@angular/core';
 export class ImagePreloadDirective {
   @Input() src: string;
   @Input() default: string;
-  @HostBinding('class') className
+  @HostBinding('class') className;
 
   updateUrl() {
     this.src = './assets/imgs/noImg.png';

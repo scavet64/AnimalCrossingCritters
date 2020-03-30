@@ -21,7 +21,7 @@
     <mat-form-field [color]="'accent'" class="field">
       <mat-label>Month</mat-label>
       <mat-select [(value)]="selectedMonths" (selectionChange)="monthsChange($event)">
-        <mat-option *ngFor="let month of monthsList" [(value)]="month">{{month}}</mat-option>
+        <mat-option *ngFor="let month of monthsList" [value]="month">{{month}}</mat-option>
       </mat-select>
     </mat-form-field>
 

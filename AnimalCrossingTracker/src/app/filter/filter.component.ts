@@ -92,6 +92,6 @@ export class FilterComponent implements OnInit {
     this.selectedMonths = this.monthsList[now.getMonth()];
     this.selectedMonthsChange.emit(this.selectedMonths);
     this.selectedTimesChange.emit([this.timesList[now.getHours()]]);
-    this.valueChanged.emit(event);
+    this.valueChanged.emit();
   }
 }
