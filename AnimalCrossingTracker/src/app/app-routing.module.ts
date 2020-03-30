@@ -7,6 +7,10 @@ import { BugsComponent } from './bugs/bugs.component';
 const routes: Routes = [
   { path: 'fish', component: FishComponent },
   { path: 'bugs', component: BugsComponent },
+  { path: '',
+    redirectTo: '/fish',
+    pathMatch: 'full'
+  },
 ];
 
 @NgModule({

@@ -1,13 +1,13 @@
 <div class="content">
-  <app-filter class="filter" [(selectedName)]="searchBar" [(selectedMonths)]="selectedMonths"
+  <app-filter class="filter" [(selectedName)]="searchBar" [(selectedMonths)]="selectedMonth"
     [(selectedTimes)]="selectedTimes" [(selectedHemisphere)]="selectedHemisphere" [(hideCaptured)]="hideCaptured"
-    (valueChanged)="updateFilter()" (resetFilter)="resetFilter()">
+    [(selectedAvailability)]="selectedAvailability" (valueChanged)="updateFilter()" (resetFilter)="resetFilter()">
 
   </app-filter>
   <div class="card-container">
-    <div *ngFor="let fish of filteredBugs" class="critter-card my-card mat-elevation-z8">
+    <div *ngFor="let fish of filteredCritters" class="critter-card my-card mat-elevation-z8">
       <div class="image-container">
-        <img class="image" [src]="getImage(fish)" appDefault/>
+        <img class="image" [src]="getImage(fish)" appDefault />
       </div>
 
       <div class="my-card-description">

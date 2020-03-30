@@ -19,4 +19,18 @@
 .center {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.availability {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-button {
+  width: 100px;
+}
+
+.reset-button {
+  margin-right: 10px;
 }

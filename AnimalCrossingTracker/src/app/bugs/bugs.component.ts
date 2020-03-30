@@ -18,7 +18,6 @@ export class BugsComponent implements OnInit {
   ngOnInit() {
     this.bugService.loadBugs().subscribe(res => {
       this.bugs = res;
-      console.log(this.bugs);
     });
   }
 }

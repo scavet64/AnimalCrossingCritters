@@ -1,5 +1,6 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { Constants } from '../models/constants';
 
 @Component({
   selector: 'app-filter',
@@ -9,53 +10,14 @@ import { FormControl } from '@angular/forms';
 export class FilterComponent implements OnInit {
 
   months = new FormControl();
-  monthsList: string[] = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December'
-  ];
-
-  timesList: string[] = [
-    '1 a.m.',
-    '2 a.m.',
-    '3 a.m.',
-    '4 a.m.',
-    '5 a.m.',
-    '6 a.m.',
-    '7 a.m.',
-    '8 a.m.',
-    '9 a.m.',
-    '10 a.m.',
-    '11 a.m.',
-    '12 a.m.',
-    '1 p.m.',
-    '2 p.m.',
-    '3 p.m.',
-    '4 p.m.',
-    '5 p.m.',
-    '6 p.m.',
-    '7 p.m.',
-    '8 p.m.',
-    '9 p.m.',
-    '10 p.m.',
-    '11 p.m.',
-    '12 p.m.'
-  ];
+  timesList = Constants.timesList;
+  monthsList = Constants.monthsList;
 
   @Input() selectedName: string;
   @Output() selectedNameChange = new EventEmitter<string>();
 
-  @Input() selectedMonths: string[];
-  @Output() selectedMonthsChange = new EventEmitter<string[]>();
+  @Input() selectedMonths: string;
+  @Output() selectedMonthsChange = new EventEmitter<string>();
 
   @Input() selectedTimes: string[];
   @Output() selectedTimesChange = new EventEmitter<string[]>();
@@ -65,6 +27,9 @@ export class FilterComponent implements OnInit {
 
   @Input() hideCaptured: boolean;
   @Output() hideCapturedChange = new EventEmitter<boolean>();
+
+  @Input() selectedAvailability: string;
+  @Output() selectedAvailabilityChange = new EventEmitter<string>();
 
   @Output() resetFilter = new EventEmitter<any>();
   @Output() valueChanged = new EventEmitter<any>();
@@ -107,6 +72,26 @@ export class FilterComponent implements OnInit {
   hideCapturedChanged(event) {
     this.hideCaptured = event.checked;
     this.hideCapturedChange.emit(this.hideCaptured);
+    this.valueChanged.emit(event);
+  }
+
+  availabilityChanged(event) {
+    this.selectedAvailability = event.value;
+    this.selectedAvailabilityChange.emit(this.selectedAvailability);
+    this.valueChanged.emit(event);
+  }
+
+  clearAvailability() {
+    this.selectedAvailability = '';
+    this.selectedAvailabilityChange.emit(this.selectedAvailability);
+    this.valueChanged.emit();
+  }
+
+  setNow() {
+    const now = new Date();
+    this.selectedMonths = this.monthsList[now.getMonth()];
+    this.selectedMonthsChange.emit(this.selectedMonths);
+    this.selectedTimesChange.emit([this.timesList[now.getHours()]]);
     this.valueChanged.emit(event);
   }
 }
