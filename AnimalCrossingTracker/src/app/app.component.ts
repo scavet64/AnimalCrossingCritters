@@ -1,4 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { MatDialog } from '@angular/material';
+import { InformationComponent } from './information/information.component';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +21,7 @@ export class AppComponent implements OnInit {
   MOBILE_SIDENAV = 'over';
 
   constructor(
+    private dialog: MatDialog
   ) { }
 
   @HostListener('window:resize', ['$event'])
@@ -41,5 +44,14 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.sizeCheck();
+  }
+
+  infoClicked() {
+    const dialogRef = this.dialog.open(InformationComponent, {
+      width: '720px'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+    });
   }
 }
