@@ -2674,7 +2674,7 @@
     "CritterNumber": 69,
     "Name": "Ant",
     "Location": "On rotten food",
-    "Value": "",
+    "Value": "80",
     "Time": "All day",
     "TimeList": [
       "12 a.m.",
@@ -2850,7 +2850,7 @@
     "CritterNumber": 72,
     "Name": "Fly",
     "Location": "On trash items",
-    "Value": "",
+    "Value": "60",
     "Time": "All day",
     "TimeList": [
       "12 a.m.",
