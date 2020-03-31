@@ -15,11 +15,17 @@
           {{fish.Name}}
         </div>
         <div class="critter-details">
-          <div>
-            Location: {{fish.Location}}
+          <div class="first-detail detail">
+            <span class="detail-name">Location:</span> <span class="detail-value">{{fish.Location}}</span>
           </div>
-          <div class="">
-            Time of day: {{fish.Time}}
+          <div class="detail">
+            <span class="detail-name">Time of day:</span> <span class="detail-value">{{fish.Time}}</span>
+          </div>
+          <div class="detail">
+            <span class="detail-name">Value:</span> <span class="detail-value">{{fish.Value}} Bells</span>
+          </div>
+          <div *ngIf="fish.ShadowSize" class="detail">
+            <span class="detail-name">Shadow Size:</span> <span class="detail-value">{{fish.ShadowSize}}</span>
           </div>
         </div>
         <div style="font-size: 0.75rem; margin-top: 5px">
