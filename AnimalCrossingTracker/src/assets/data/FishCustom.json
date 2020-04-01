@@ -1513,8 +1513,12 @@
       "11 p.m."
     ],
     "Month": "September (Northern) / March (Southern)",
-    "NorthHemisphere": [],
-    "SouthHemisphere": []
+    "NorthHemisphere": [
+      "September"
+    ],
+    "SouthHemisphere": [
+      "March"
+    ]
   },
   {
     "ShadowSize": "Smallest",
@@ -1550,8 +1554,12 @@
       "11 p.m."
     ],
     "Month": "September (Northern) / March (Southern)",
-    "NorthHemisphere": [],
-    "SouthHemisphere": []
+    "NorthHemisphere": [
+      "September"
+    ],
+    "SouthHemisphere": [
+      "March"
+    ]
   },
   {
     "ShadowSize": "Small",
