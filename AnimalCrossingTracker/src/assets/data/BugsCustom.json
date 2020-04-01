@@ -1002,7 +1002,7 @@
     "CritterNumber": 26,
     "Name": "Brown Cicada",
     "Location": "On trees",
-    "Value": "",
+    "Value": "250",
     "Time": "8 a.m. - 5 p.m.",
     "TimeList": [
       "8 a.m.",
@@ -1030,7 +1030,7 @@
     "CritterNumber": 27,
     "Name": "Robust Cicada",
     "Location": "On trees",
-    "Value": "",
+    "Value": "300",
     "Time": "8 a.m. - 5 p.m.",
     "TimeList": [
       "8 a.m.",
@@ -1058,7 +1058,7 @@
     "CritterNumber": 28,
     "Name": "Giant Cicada",
     "Location": "On trees",
-    "Value": "",
+    "Value": "500",
     "Time": "8 a.m. - 5 p.m.",
     "TimeList": [
       "8 a.m.",
@@ -1114,7 +1114,7 @@
     "CritterNumber": 30,
     "Name": "Evening Cicada",
     "Location": "On trees",
-    "Value": "",
+    "Value": "550",
     "Time": "4 a.m. - 8 a.m., 4 p.m. - 7 p.m.",
     "TimeList": [
       "4 a.m.",
@@ -1141,7 +1141,7 @@
     "CritterNumber": 31,
     "Name": "Cicada Shell",
     "Location": "On trees",
-    "Value": "",
+    "Value": "10",
     "Time": "All day",
     "TimeList": [
       "12 a.m.",
@@ -1287,7 +1287,7 @@
     "CritterNumber": 35,
     "Name": "Damselfly",
     "Location": "Flying",
-    "Value": "",
+    "Value": "500",
     "Time": "All day",
     "TimeList": [
       "12 a.m.",
@@ -1333,7 +1333,7 @@
     "CritterNumber": 36,
     "Name": "Firefly",
     "Location": "Flying",
-    "Value": "",
+    "Value": "300",
     "Time": "7 p.m. - 4 a.m.",
     "TimeList": [
       "7 p.m.",
@@ -1348,8 +1348,12 @@
       "4 a.m."
     ],
     "Month": "June (Northern) / December (Southern)",
-    "NorthHemisphere": [],
-    "SouthHemisphere": []
+    "NorthHemisphere": [
+      "June"
+    ],
+    "SouthHemisphere": [
+      "December"
+    ]
   },
   {
     "CritterNumber": 37,
@@ -1915,8 +1919,8 @@
   {
     "CritterNumber": 49,
     "Name": "Blue Weevil Beetle",
-    "Location": "",
-    "Value": "",
+    "Location": "On Trees (Coconut?)",
+    "Value": "800",
     "Time": "All day",
     "TimeList": [
       "12 a.m.",
@@ -1958,9 +1962,34 @@
     "CritterNumber": 50,
     "Name": "Dung Beetle",
     "Location": "Pushing snowballs",
-    "Value": "",
-    "Time": "",
-    "TimeList": [],
+    "Value": "3,000",
+    "Time": "All day",
+    "TimeList": [
+      "12 a.m.",
+      "1 a.m.",
+      "2 a.m.",
+      "3 a.m.",
+      "4 a.m.",
+      "5 a.m.",
+      "6 a.m.",
+      "7 a.m.",
+      "8 a.m.",
+      "9 a.m.",
+      "10 a.m.",
+      "11 a.m.",
+      "12 p.m.",
+      "1 p.m.",
+      "2 p.m.",
+      "3 p.m.",
+      "4 p.m.",
+      "5 p.m.",
+      "6 p.m.",
+      "7 p.m.",
+      "8 p.m.",
+      "9 p.m.",
+      "10 p.m.",
+      "11 p.m."
+    ],
     "Month": "December-February (Northern) / June-August (Southern)",
     "NorthHemisphere": [
       "December",
@@ -2021,7 +2050,7 @@
     "CritterNumber": 52,
     "Name": "Scarab Beetle",
     "Location": "On trees",
-    "Value": "",
+    "Value": "10,000",
     "Time": "11 p.m. - 8 a.m.",
     "TimeList": [
       "1 p.m.",
@@ -2059,7 +2088,7 @@
     "CritterNumber": 53,
     "Name": "Drone Beetle",
     "Location": "On trees",
-    "Value": "",
+    "Value": "200",
     "Time": "All day",
     "TimeList": [
       "12 a.m.",
@@ -2141,7 +2170,7 @@
     "CritterNumber": 55,
     "Name": "Saw Stag",
     "Location": "On trees",
-    "Value": "",
+    "Value": "2,000",
     "Time": "All day",
     "TimeList": [
       "12 a.m.",
@@ -2183,7 +2212,7 @@
     "CritterNumber": 56,
     "Name": "Miyama Stag",
     "Location": "On trees",
-    "Value": "",
+    "Value": "1,000",
     "Time": "All day",
     "TimeList": [
       "12 a.m.",
@@ -2225,7 +2254,7 @@
     "CritterNumber": 57,
     "Name": "Giant Stag",
     "Location": "On trees",
-    "Value": "",
+    "Value": "10,000",
     "Time": "11 p.m. - 8 a.m.",
     "TimeList": [
       "1 p.m.",
@@ -2299,7 +2328,7 @@
     "CritterNumber": 59,
     "Name": "Cyclommatus Stag",
     "Location": "On trees",
-    "Value": "",
+    "Value": "8,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -2333,7 +2362,7 @@
     "CritterNumber": 60,
     "Name": "Golden Stag",
     "Location": "On trees",
-    "Value": "",
+    "Value": "Unknown",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -2367,7 +2396,7 @@
     "CritterNumber": 61,
     "Name": "Giraffe Stag",
     "Location": "On trees",
-    "Value": "",
+    "Value": "Unknown",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -2401,7 +2430,7 @@
     "CritterNumber": 62,
     "Name": "Horned Dynastid",
     "Location": "On trees",
-    "Value": "",
+    "Value": "1,350",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -2435,7 +2464,7 @@
     "CritterNumber": 63,
     "Name": "Horned Atlas",
     "Location": "On trees",
-    "Value": "",
+    "Value": "8,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -2469,7 +2498,7 @@
     "CritterNumber": 64,
     "Name": "Horned Elephant",
     "Location": "On trees",
-    "Value": "",
+    "Value": "8,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -2503,7 +2532,7 @@
     "CritterNumber": 65,
     "Name": "Horned Herucles",
     "Location": "On trees",
-    "Value": "",
+    "Value": "Unknown",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -2537,7 +2566,7 @@
     "CritterNumber": 66,
     "Name": "Walking Stick",
     "Location": "Falls from shaking trees",
-    "Value": "",
+    "Value": "600",
     "Time": "4 a.m. - 8 a.m., 5 p.m. - 7 p.m.",
     "TimeList": [
       "4 a.m.",
@@ -2946,7 +2975,7 @@
     "CritterNumber": 74,
     "Name": "Flea",
     "Location": "On villagers",
-    "Value": "",
+    "Value": "70",
     "Time": "All day",
     "TimeList": [
       "12 a.m.",
@@ -3102,7 +3131,16 @@
     "Location": "Hit rocks",
     "Value": "300",
     "Time": "4 p.m. - 11 p.m.",
-    "TimeList": [],
+    "TimeList": [
+      "4 p.m.",
+      "5 p.m.",
+      "6 p.m.",
+      "7 p.m.",
+      "8 p.m.",
+      "9 p.m.",
+      "10 p.m.",
+      "11 p.m."
+    ],
     "Month": "September-June (Northern) / March-December (Southern)",
     "NorthHemisphere": [
       "September",
