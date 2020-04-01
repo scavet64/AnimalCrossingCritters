@@ -8,7 +8,7 @@ import { InformationComponent } from './information/information.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'AnimalCrossingTracker';
+  title = 'Animal Crossing Critters: by Scavettapps';
 
   private MIN_WIDTH = 1000;
   private innerWidth: number;
