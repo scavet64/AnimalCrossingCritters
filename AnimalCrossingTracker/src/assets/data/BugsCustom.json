@@ -1644,9 +1644,11 @@
       "March",
       "April",
       "May",
-      "June"
+      "June",
+      "October"
     ],
     "SouthHemisphere": [
+      "April",
       "September",
       "October",
       "November",
