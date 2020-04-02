@@ -118,7 +118,7 @@ export class CritterDisplayComponent implements OnInit {
 
   private captureCheck(critter: Critter) {
     if (this.hideCaptured) {
-      return this.userDataService.userData.ownedBugs.indexOf(critter.CritterNumber) < 0;
+      return !this.hasFish(critter);
     } else {
       return true;
     }
@@ -165,17 +165,30 @@ export class CritterDisplayComponent implements OnInit {
   }
 
   hasFish(critter: Critter) {
-    return this.userDataService.userData.ownedBugs.find(fishId => fishId === critter.CritterNumber) !== undefined;
+    if (this.type === 'bug') {
+      return this.userDataService.userData.ownedBugs.find(fishId => fishId === critter.CritterNumber) !== undefined;
+    } else {
+      return this.userDataService.userData.ownedFish.find(fishId => fishId === critter.CritterNumber) !== undefined;
+    }
   }
 
   ownershipChange(critter: Critter) {
     // If we have it, remove it
     const userData = this.userDataService.userData;
-    if (userData.ownedBugs.find(fishId => fishId === critter.CritterNumber)) {
-      userData.ownedBugs = userData.ownedBugs.filter(fishId => fishId !== critter.CritterNumber);
+    if (this.type === 'bug') {
+      if (userData.ownedBugs.find(fishId => fishId === critter.CritterNumber)) {
+        userData.ownedBugs = userData.ownedBugs.filter(fishId => fishId !== critter.CritterNumber);
+      } else {
+        userData.ownedBugs.push(critter.CritterNumber);
+      }
     } else {
-      userData.ownedBugs.push(critter.CritterNumber);
+      if (userData.ownedFish.find(fishId => fishId === critter.CritterNumber)) {
+        userData.ownedFish = userData.ownedFish.filter(fishId => fishId !== critter.CritterNumber);
+      } else {
+        userData.ownedFish.push(critter.CritterNumber);
+      }
     }
+
     this.userDataService.save();
     this.updateFilter();
   }
