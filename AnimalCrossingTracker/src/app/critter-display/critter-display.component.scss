@@ -89,9 +89,12 @@
 
 .filter {
   flex: 1;
+  position: sticky;
+  height: 100%;
+  top: 32px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 613px) {
   .content {
     display: block;
   }
