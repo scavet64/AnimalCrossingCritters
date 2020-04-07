@@ -51,6 +51,7 @@ import { TitleNavComponent } from './title-nav/title-nav.component';
 import { BugsComponent } from './bugs/bugs.component';
 import { ImagePreloadDirective } from './images/image-preload.directive';
 import { CritterDisplayComponent } from './critter-display/critter-display.component';
+import { InformationComponent } from './information/information.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { CritterDisplayComponent } from './critter-display/critter-display.compo
     BugsComponent,
     ImagePreloadDirective,
     CritterDisplayComponent,
+    InformationComponent,
   ],
   imports: [
     BrowserModule,
@@ -106,6 +108,9 @@ import { CritterDisplayComponent } from './critter-display/critter-display.compo
     MatNativeDateModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    InformationComponent
+  ]
 })
 export class AppModule { }

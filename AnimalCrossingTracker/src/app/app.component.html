@@ -15,8 +15,9 @@
       Animal Crossing Critters
     </div>
     <app-title-nav></app-title-nav>
-
   </div>
+  <button *ngIf="!isMobile" mat-flat-button class="button" (click)="infoClicked()"><i class="fas fa-info-circle"></i> About</button>
+  <button *ngIf="isMobile" mat-icon-button class="button" (click)="infoClicked()"><i class="fas fa-info-circle"></i></button>
 </mat-toolbar>
 
 <mat-sidenav-container class="content-container">

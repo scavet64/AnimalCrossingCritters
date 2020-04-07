@@ -6,6 +6,7 @@ import { Bug } from '../bugs/bug';
 import { FishService } from '../fish/fish.service';
 import { BugService } from '../bugs/bug.service';
 import { Constants } from '../models/constants';
+import { Fish } from '../fish/fish';
 
 @Component({
   selector: 'app-critter-display',
@@ -17,7 +18,7 @@ export class CritterDisplayComponent implements OnInit {
   @Input() critters: Critter[];
   @Input() type: string;
 
-  filteredCritters: Critter[];
+  filteredCritters: Critter[] | Fish[];
 
   searchBar = '';
   selectedMonth: string;

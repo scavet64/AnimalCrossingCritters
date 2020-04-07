@@ -1,0 +1,30 @@
+.title {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-family: 'FinkHeavy';
+  text-align: center;
+}
+
+.section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paypal {
+  max-width: 100px;
+  object-fit: scale-down;
+}
+
+.donation {
+  margin: 10px;
+  margin-bottom: 0px;
+}

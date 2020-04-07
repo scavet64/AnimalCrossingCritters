@@ -29,7 +29,6 @@ export class UserDataService {
       } else {
         this.userData = loadedData;
       }
-      console.log(this.userData);
     } else {
       // Init and save starting data
       this.userData = {
