@@ -6,7 +6,7 @@ This webapp was designed to help Animal Crossing: New Horizons players keep trac
 
 This webapp is hosted on heroku and can be reached by navigating to https://animalcrossing.scavettapps.com
 
-![](screenshots/desktop.png)
+![](Screenshots/desktop.png)
 
 ## Running the webapp locally
 
