@@ -25,6 +25,9 @@ export class FilterComponent implements OnInit {
   @Input() selectedHemisphere: string;
   @Output() selectedHemisphereChange = new EventEmitter<string>();
 
+  @Input() selectedOrder: string;
+  @Output() selectedOrderChange = new EventEmitter<string>();
+
   @Input() hideCaptured: boolean;
   @Output() hideCapturedChange = new EventEmitter<boolean>();
 
@@ -66,6 +69,12 @@ export class FilterComponent implements OnInit {
   hemisphereChange(event) {
     this.selectedHemisphere = event.value;
     this.selectedHemisphereChange.emit(this.selectedHemisphere);
+    this.valueChanged.emit(event);
+  }
+
+  selectedOrderChanged(event) {
+    this.selectedOrder = event.value;
+    this.selectedOrderChange.emit(this.selectedOrder);
     this.valueChanged.emit(event);
   }
 
