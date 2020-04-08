@@ -7,11 +7,30 @@ import { FishService } from '../fish/fish.service';
 import { BugService } from '../bugs/bug.service';
 import { Constants } from '../models/constants';
 import { Fish } from '../fish/fish';
+import { trigger, transition, style, animate, query, stagger, animateChild, sequence } from '@angular/animations';
 
 @Component({
   selector: 'app-critter-display',
   templateUrl: './critter-display.component.html',
-  styleUrls: ['./critter-display.component.scss']
+  styleUrls: ['./critter-display.component.scss'],
+  animations: [
+    trigger('items', [
+      transition('* => void', [
+        style({ opacity: '1', transform: 'translateX(0)' }),
+        sequence([
+          animate('.25s ease', style({ opacity: '.2', transform: 'translateX(20px)' })),
+          animate('.1s ease', style({ opacity: 0, transform: 'translateX(20px)' }))
+        ])
+      ]),
+      transition('void => *', [
+        style({ opacity: '0', transform: 'translateX(20px)' }),
+        sequence([
+          animate('.1s ease', style({ opacity: '.2', transform: 'translateX(20px)' })),
+          animate('.35s ease', style({ opacity: 1, transform: 'translateX(0)' }))
+        ])
+      ])
+    ])
+  ]
 })
 export class CritterDisplayComponent implements OnInit {
 
