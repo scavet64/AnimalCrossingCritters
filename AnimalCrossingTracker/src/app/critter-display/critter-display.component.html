@@ -6,6 +6,11 @@
 
   </app-filter>
   <div class="card-container">
+
+    <div *ngIf="filteredCritters.length === 0" class="no-critters">
+      No critters to show based on these filters
+    </div>
+
     <div @items *ngFor="let critter of filteredCritters" class="critter-card my-card mat-elevation-z8">
       <div class="image-container">
         <img class="image" [src]="getImage(critter)" appDefault />

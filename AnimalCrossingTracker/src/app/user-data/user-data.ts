@@ -1,3 +1,5 @@
+import { Constants } from '../models/constants';
+
 export class UserData {
   ownedFish: number[];
   ownedBugs: number[];
@@ -8,6 +10,7 @@ export class UserData {
   filteredName = '';
   hideCaptured = false;
   availability = 'Available';
+  critterOrder = 'id-a';
 
-  version = '0.1.1';
+  version = Constants.VERSION;
 }

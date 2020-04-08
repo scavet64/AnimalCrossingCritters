@@ -77,6 +77,7 @@ export class CritterDisplayComponent implements OnInit {
     this.hideCaptured = userData.hideCaptured;
     this.searchBar = userData.filteredName;
     this.selectedAvailability = userData.availability;
+    this.selectedOrder = userData.critterOrder;
   }
 
   getMonthColor(month: string) {
@@ -256,6 +257,7 @@ export class CritterDisplayComponent implements OnInit {
     userData.filteredName = this.searchBar;
     userData.filteredTime = this.selectedTimes;
     userData.hideCaptured = this.hideCaptured;
+    userData.critterOrder = this.selectedOrder;
     this.userDataService.save();
   }
 
