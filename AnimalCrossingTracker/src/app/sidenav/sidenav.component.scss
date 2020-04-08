@@ -40,19 +40,3 @@
   font-weight: bold;
   letter-spacing: 0.05rem;
 }
-
-.menu-expander {
-  background: #0e1d25;
-  color: white !important;
-  border-radius: 0;
-  padding: 0;
-  box-shadow: 0;
-}
-
-.menu-expander>.mat-expansion-indicator, .mat-expansion-indicator::after, .mat-expansion-panel-header-title, .mat-expansion-panel-header-description {
-  color: white !important;
-}
-
-.icon {
-  width: 20px;
-}

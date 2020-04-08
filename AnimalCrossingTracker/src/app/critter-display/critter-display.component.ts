@@ -2,16 +2,34 @@ import { Component, OnInit, Input } from '@angular/core';
 import { MonthColorService } from '../color-service/month-color.service';
 import { UserDataService } from '../user-data/user-data.service';
 import { Critter } from '../models/critter';
-import { Bug } from '../bugs/bug';
 import { FishService } from '../fish/fish.service';
 import { BugService } from '../bugs/bug.service';
 import { Constants } from '../models/constants';
 import { Fish } from '../fish/fish';
+import { trigger, transition, style, animate, query, stagger, animateChild, sequence } from '@angular/animations';
 
 @Component({
   selector: 'app-critter-display',
   templateUrl: './critter-display.component.html',
-  styleUrls: ['./critter-display.component.scss']
+  styleUrls: ['./critter-display.component.scss'],
+  animations: [
+    trigger('items', [
+      transition('* => void', [
+        style({ opacity: '1', transform: 'translateX(0)' }),
+        sequence([
+          animate('.25s ease', style({ opacity: '.2', transform: 'translateX(20px)' })),
+          animate('.1s ease', style({ opacity: 0, transform: 'translateX(20px)' }))
+        ])
+      ]),
+      transition('void => *', [
+        style({ opacity: '0', transform: 'translateX(20px)' }),
+        sequence([
+          animate('.1s ease', style({ opacity: '.2', transform: 'translateX(20px)' })),
+          animate('.35s ease', style({ opacity: 1, transform: 'translateX(0)' }))
+        ])
+      ])
+    ])
+  ]
 })
 export class CritterDisplayComponent implements OnInit {
 
@@ -49,8 +67,8 @@ export class CritterDisplayComponent implements OnInit {
         this.updateFilter();
       });
     }
-
     const userData = this.userDataService.userData;
+
     // Initialize filters based on saved user data
     this.selectedMonth = userData.filteredMonth;
     this.selectedTimes = userData.filteredTime;
@@ -104,7 +122,6 @@ export class CritterDisplayComponent implements OnInit {
     const indexOfSelectedMonth = Constants.monthsList.findIndex(month => month === this.selectedMonth);
     const nextMonthIndex = (indexOfSelectedMonth + 1) % 12;
     const nextMonth = Constants.monthsList[nextMonthIndex];
-    // console.log(`Next Month: ${nextMonth}`);
     return !this.containsMonth(critter, nextMonth);
   }
 
@@ -112,13 +129,12 @@ export class CritterDisplayComponent implements OnInit {
     const indexOfSelectedMonth = Constants.monthsList.findIndex(month => month === this.selectedMonth);
     const previousMonthIndex = (indexOfSelectedMonth - 1) % 12;
     const previousMonth = Constants.monthsList[previousMonthIndex];
-    // console.log(`Previous Month: ${previousMonth}`);
     return !this.containsMonth(critter, previousMonth);
   }
 
   private captureCheck(critter: Critter) {
     if (this.hideCaptured) {
-      return this.userDataService.userData.ownedBugs.indexOf(critter.CritterNumber) < 0;
+      return !this.hasCritter(critter);
     } else {
       return true;
     }
@@ -164,20 +180,34 @@ export class CritterDisplayComponent implements OnInit {
     this.saveFilters();
   }
 
-  hasFish(critter: Critter) {
-    return this.userDataService.userData.ownedBugs.find(fishId => fishId === critter.CritterNumber) !== undefined;
+  hasCritter(critter: Critter) {
+    if (this.type === 'bug') {
+      return this.userDataService.userData.ownedBugs.find(fishId => fishId === critter.CritterNumber) !== undefined;
+    } else {
+      return this.userDataService.userData.ownedFish.find(fishId => fishId === critter.CritterNumber) !== undefined;
+    }
   }
 
   ownershipChange(critter: Critter) {
-    // If we have it, remove it
     const userData = this.userDataService.userData;
-    if (userData.ownedBugs.find(fishId => fishId === critter.CritterNumber)) {
-      userData.ownedBugs = userData.ownedBugs.filter(fishId => fishId !== critter.CritterNumber);
+    if (this.type === 'bug') {
+      userData.ownedBugs = this.updateCollection(critter, userData.ownedBugs);
     } else {
-      userData.ownedBugs.push(critter.CritterNumber);
+      userData.ownedFish = this.updateCollection(critter, userData.ownedFish);
     }
+
     this.userDataService.save();
     this.updateFilter();
+  }
+
+  updateCollection(critter: Critter, collection: number[]): number[] {
+    // If we have it, remove it, otherwise add it
+    if (collection.find(critterId => critterId === critter.CritterNumber)) {
+      collection = collection.filter(critterId => critterId !== critter.CritterNumber);
+    } else {
+      collection.push(critter.CritterNumber);
+    }
+    return collection;
   }
 
   monthsToDisplay(critter: Critter) {

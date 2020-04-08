@@ -5,39 +5,39 @@
 
   </app-filter>
   <div class="card-container">
-    <div *ngFor="let fish of filteredCritters" class="critter-card my-card mat-elevation-z8">
+    <div @items *ngFor="let critter of filteredCritters" class="critter-card my-card mat-elevation-z8">
       <div class="image-container">
-        <img class="image" [src]="getImage(fish)" appDefault />
+        <img class="image" [src]="getImage(critter)" appDefault />
       </div>
 
       <div class="my-card-description">
         <div style="font-size: 1.15rem;">
-          {{fish.Name}}
+          {{critter.Name}}
         </div>
         <div class="critter-details">
           <div class="first-detail detail">
-            <span class="detail-name">Location:</span> <span class="detail-value">{{fish.Location}}</span>
+            <span class="detail-name">Location:</span> <span class="detail-value">{{critter.Location}}</span>
           </div>
           <div class="detail">
-            <span class="detail-name">Time of day:</span> <span class="detail-value">{{fish.Time}}</span>
+            <span class="detail-name">Time of day:</span> <span class="detail-value">{{critter.Time}}</span>
           </div>
           <div class="detail">
-            <span class="detail-name">Value:</span> <span class="detail-value">{{fish.Value}} Bells</span>
+            <span class="detail-name">Value:</span> <span class="detail-value">{{critter.Value}} Bells</span>
           </div>
-          <div *ngIf="fish.ShadowSize" class="detail">
-            <span class="detail-name">Shadow Size:</span> <span class="detail-value">{{fish.ShadowSize}}</span>
+          <div *ngIf="critter.ShadowSize" class="detail">
+            <span class="detail-name">Shadow Size:</span> <span class="detail-value">{{critter.ShadowSize}}</span>
           </div>
         </div>
         <div style="font-size: 0.75rem; margin-top: 5px">
-          <mat-chip-list aria-label="Fish selection">
-            <mat-chip class="my-chip-xs" *ngFor="let month of monthsToDisplay(fish)"
+          <mat-chip-list>
+            <mat-chip class="my-chip-xs" *ngFor="let month of monthsToDisplay(critter)"
               [style.background-color]="getMonthColor(month)">{{month}}</mat-chip>
           </mat-chip-list>
         </div>
       </div>
 
       <div class="checkbox-container">
-        <mat-checkbox [checked]="hasFish(fish)" (change)="ownershipChange(fish)">
+        <mat-checkbox [checked]="hasCritter(critter)" (change)="ownershipChange(critter)">
 
         </mat-checkbox>
       </div>

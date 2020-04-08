@@ -1,12 +1,3 @@
-.search-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .search-input {
   outline: none;
   border: none;
@@ -40,8 +31,4 @@
   -webkit-transition: all linear 0.25s;
   transition: all linear 0.25s;
   justify-content: flex-start;
-}
-
-.expanded-input {
-  width: 100%;
 }

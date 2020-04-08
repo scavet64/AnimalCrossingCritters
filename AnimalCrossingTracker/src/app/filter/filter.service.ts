@@ -7,5 +7,4 @@ export class FilterService {
 
   constructor() { }
 
-
 }
