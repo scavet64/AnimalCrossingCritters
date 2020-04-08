@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { UserData } from './user-data';
+import { Constants } from '../models/constants';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserDataService {
 
-  private readonly VERSION = '0.1.1';
   private readonly DATA_KEY = 'animalcrossingdata';
 
   public userData: UserData;
@@ -26,6 +26,11 @@ export class UserDataService {
         newData.ownedFish = loadedData.ownedFish;
         this.userData = newData;
         this.save();
+      } else if (loadedData.version === '0.1.1') {
+        loadedData.critterOrder = 'id-a';
+        loadedData.version = Constants.VERSION;
+        this.userData = loadedData;
+        this.save();
       } else {
         this.userData = loadedData;
       }
@@ -40,7 +45,8 @@ export class UserDataService {
         filteredTime: [],
         hideCaptured: false,
         availability: 'Available',
-        version: this.VERSION
+        critterOrder: 'id-a',
+        version: Constants.VERSION
       };
       localStorage.setItem(this.DATA_KEY, JSON.stringify(this.userData));
     }
