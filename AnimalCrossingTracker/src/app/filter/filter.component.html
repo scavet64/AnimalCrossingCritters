@@ -27,6 +27,16 @@
       </mat-select>
     </mat-form-field>
 
+    <mat-form-field [color]="'accent'" class="field">
+      <mat-label>Order By</mat-label>
+      <mat-select [(value)]="selectedOrder" (selectionChange)="selectedOrderChanged($event)">
+        <mat-option value="id-a">Critter ID (Asc)</mat-option>
+        <mat-option value="id-d">Critter ID (Desc)</mat-option>
+        <mat-option value="bells-a">Bell Value (Asc)</mat-option>
+        <mat-option value="bells-d">Bell Value (Desc)</mat-option>
+      </mat-select>
+    </mat-form-field>
+
     <div>
       <mat-checkbox [(checked)]="hideCaptured" (change)="hideCapturedChanged($event)">
         Hide Captured

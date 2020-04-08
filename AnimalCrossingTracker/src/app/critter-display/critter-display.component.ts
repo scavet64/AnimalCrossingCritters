@@ -42,6 +42,7 @@ export class CritterDisplayComponent implements OnInit {
   selectedMonth: string;
   selectedTimes: string[] = [];
   selectedHemisphere = 'Northern';
+  selectedOrder = 'id-a';
   hideCaptured = false;
   selectedAvailability = 'Available';
 
@@ -97,8 +98,29 @@ export class CritterDisplayComponent implements OnInit {
       return containsMonth && containsTime && captureCheck && availabilityMet;
     });
 
+    // Reorder the list now
+    switch (this.selectedOrder) {
+      case 'id-a':
+        this.filteredCritters = this.filteredCritters.sort((a, b) => a.CritterNumber - b.CritterNumber);
+        break;
+      case 'id-d':
+        this.filteredCritters = this.filteredCritters.sort((a, b) => b.CritterNumber - a.CritterNumber);
+        break;
+      case 'bells-a':
+        this.filteredCritters = this.filteredCritters.sort((a, b) => this.getIntValue(a.Value) - this.getIntValue(b.Value));
+        break;
+      case 'bells-d':
+        this.filteredCritters = this.filteredCritters.sort((a, b) => this.getIntValue(b.Value) - this.getIntValue(a.Value));
+        break;
+    }
+
     // Save the users filters
     this.saveFilters();
+  }
+
+  getIntValue(stringValue: string) {
+    stringValue = stringValue.replace(',', '');
+    return Number.parseInt(stringValue, 10);
   }
 
   fitsAvailability(critter: Critter) {
