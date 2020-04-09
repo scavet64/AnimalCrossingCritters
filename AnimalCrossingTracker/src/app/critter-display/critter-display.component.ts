@@ -200,6 +200,7 @@ export class CritterDisplayComponent implements OnInit {
     this.searchBar = '';
     this.hideCaptured = false;
     this.selectedAvailability = 'Available';
+    this.selectedOrder = 'id-a';
     this.saveFilters();
   }
 
