@@ -138,7 +138,7 @@
   {
     "CritterNumber": 4,
     "Name": "Peacock Butterfly",
-    "Location": "Flying",
+    "Location": "Flying by Hybrid Flowers",
     "Value": "2,500",
     "Time": "4 a.m. - 7 p.m.",
     "TimeList": [
@@ -751,7 +751,7 @@
   {
     "CritterNumber": 20,
     "Name": "Cricket",
-    "Location": "Dig at cricket noise",
+    "Location": "On ground",
     "Value": "130",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
@@ -1716,7 +1716,7 @@
   {
     "CritterNumber": 45,
     "Name": "Jewel Beetle",
-    "Location": "On trees",
+    "Location": "On tree stumps",
     "Value": "2,400",
     "Time": "All day",
     "TimeList": [
@@ -1921,7 +1921,7 @@
   {
     "CritterNumber": 49,
     "Name": "Blue Weevil Beetle",
-    "Location": "On Trees (Coconut?)",
+    "Location": "On Trees (Coconut)",
     "Value": "800",
     "Time": "All day",
     "TimeList": [
@@ -2133,7 +2133,7 @@
   {
     "CritterNumber": 54,
     "Name": "Goliath Beetle",
-    "Location": "On trees",
+    "Location": "On trees (Coconut)",
     "Value": "8,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
@@ -2329,7 +2329,7 @@
   {
     "CritterNumber": 59,
     "Name": "Cyclommatus Stag",
-    "Location": "On trees",
+    "Location": "On trees (Coconut)",
     "Value": "8,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
@@ -2363,8 +2363,8 @@
   {
     "CritterNumber": 60,
     "Name": "Golden Stag",
-    "Location": "On trees",
-    "Value": "Unknown",
+    "Location": "On trees (Coconut)",
+    "Value": "12,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -2397,8 +2397,8 @@
   {
     "CritterNumber": 61,
     "Name": "Giraffe Stag",
-    "Location": "On trees",
-    "Value": "Unknown",
+    "Location": "On trees (Coconut)",
+    "Value": "12,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -2465,7 +2465,7 @@
   {
     "CritterNumber": 63,
     "Name": "Horned Atlas",
-    "Location": "On trees",
+    "Location": "On trees (Coconut)",
     "Value": "8,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
@@ -2499,7 +2499,7 @@
   {
     "CritterNumber": 64,
     "Name": "Horned Elephant",
-    "Location": "On trees",
+    "Location": "On trees (Coconut)",
     "Value": "8,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
@@ -2533,8 +2533,8 @@
   {
     "CritterNumber": 65,
     "Name": "Horned Herucles",
-    "Location": "On trees",
-    "Value": "Unknown",
+    "Location": "On trees (Coconut)",
+    "Value": "12,000",
     "Time": "5 p.m. - 8 a.m.",
     "TimeList": [
       "5 p.m.",
@@ -3030,7 +3030,7 @@
   {
     "CritterNumber": 75,
     "Name": "Snail",
-    "Location": "On rocks (raining)",
+    "Location": "On rocks and bushes (raining)",
     "Value": "250",
     "Time": "All day",
     "TimeList": [
@@ -3173,7 +3173,7 @@
     "CritterNumber": 78,
     "Name": "Spider",
     "Location": "Falls from shaking trees",
-    "Value": "480",
+    "Value": "600",
     "Time": "7 p.m. - 8 a.m.",
     "TimeList": [
       "7 p.m.",

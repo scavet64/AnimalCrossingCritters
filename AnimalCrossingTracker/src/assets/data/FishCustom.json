@@ -1427,7 +1427,7 @@
     ]
   },
   {
-    "ShadowSize": "Largest",
+    "ShadowSize": "X Large",
     "CritterNumber": 30,
     "Name": "Stringfish",
     "Location": "River (Clifftop)",
@@ -1468,7 +1468,7 @@
     ]
   },
   {
-    "ShadowSize": "Small",
+    "ShadowSize": "Large",
     "CritterNumber": 31,
     "Name": "Salmon",
     "Location": "River (mouth)",
@@ -1509,7 +1509,7 @@
     ]
   },
   {
-    "ShadowSize": "Smallest",
+    "ShadowSize": "Largest",
     "CritterNumber": 32,
     "Name": "King Salmon",
     "Location": "River (mouth)",
@@ -1628,7 +1628,7 @@
     ]
   },
   {
-    "ShadowSize": "Small",
+    "ShadowSize": "Smallest",
     "CritterNumber": 35,
     "Name": "Nibble Fish",
     "Location": "River",
@@ -1661,7 +1661,7 @@
     ]
   },
   {
-    "ShadowSize": "Small",
+    "ShadowSize": "Smallest",
     "CritterNumber": 36,
     "Name": "Angelfish",
     "Location": "River",
@@ -1780,7 +1780,7 @@
     ]
   },
   {
-    "ShadowSize": "Small",
+    "ShadowSize": "Smallest",
     "CritterNumber": 39,
     "Name": "Rainbowfish",
     "Location": "River",
@@ -3001,7 +3001,7 @@
     ]
   },
   {
-    "ShadowSize": "X Large",
+    "ShadowSize": "Narrow",
     "CritterNumber": 64,
     "Name": "Moray Eel",
     "Location": "Sea",
@@ -3095,7 +3095,7 @@
     ]
   },
   {
-    "ShadowSize": "X Large",
+    "ShadowSize": "Largest",
     "CritterNumber": 66,
     "Name": "Tuna",
     "Location": "Pier",
@@ -3146,7 +3146,7 @@
     ]
   },
   {
-    "ShadowSize": "X Large",
+    "ShadowSize": "Largest",
     "CritterNumber": 67,
     "Name": "Blue Marlin",
     "Location": "Pier",
@@ -3204,7 +3204,7 @@
     ]
   },
   {
-    "ShadowSize": "Large",
+    "ShadowSize": "X Large",
     "CritterNumber": 68,
     "Name": "Giant Trevally",
     "Location": "Pier",
@@ -3255,10 +3255,10 @@
     ]
   },
   {
-    "ShadowSize": "Large",
+    "ShadowSize": "X Large",
     "CritterNumber": 69,
     "Name": "Mahi-mahi",
-    "Location": "Sea",
+    "Location": "Pier",
     "Value": "6,000",
     "Time": "All day",
     "TimeList": [
@@ -3556,7 +3556,7 @@
     ]
   },
   {
-    "ShadowSize": "(Fin)",
+    "ShadowSize": "Large (Fin)",
     "CritterNumber": 76,
     "Name": "Suckerfish",
     "Location": "Sea",
