@@ -11,41 +11,43 @@
       No critters to show based on these filters
     </div>
 
-    <div @items *ngFor="let critter of filteredCritters" class="critter-card my-card mat-elevation-z8">
-      <div class="image-container">
-        <img class="image" [src]="getImage(critter)" appDefault />
-      </div>
-
-      <div class="my-card-description">
-        <div style="font-size: 1.15rem;">
-          {{critter.Name}}
+    <div *ngIf="filteredCritters.length !== 0">
+      <div @items *ngFor="let critter of filteredCritters" class="critter-card my-card mat-elevation-z8">
+        <div class="image-container">
+          <img class="image" [src]="getImage(critter)" appDefault />
         </div>
-        <div class="critter-details">
-          <div class="first-detail detail">
-            <span class="detail-name">Location:</span> <span class="detail-value">{{critter.Location}}</span>
+
+        <div class="my-card-description">
+          <div style="font-size: 1.15rem;">
+            {{critter.Name}}
           </div>
-          <div class="detail">
-            <span class="detail-name">Time of day:</span> <span class="detail-value">{{critter.Time}}</span>
+          <div class="critter-details">
+            <div class="first-detail detail">
+              <span class="detail-name">Location:</span> <span class="detail-value">{{critter.Location}}</span>
+            </div>
+            <div class="detail">
+              <span class="detail-name">Time of day:</span> <span class="detail-value">{{critter.Time}}</span>
+            </div>
+            <div class="detail">
+              <span class="detail-name">Value:</span> <span class="detail-value">{{critter.Value}} Bells</span>
+            </div>
+            <div *ngIf="critter.ShadowSize" class="detail">
+              <span class="detail-name">Shadow Size:</span> <span class="detail-value">{{critter.ShadowSize}}</span>
+            </div>
           </div>
-          <div class="detail">
-            <span class="detail-name">Value:</span> <span class="detail-value">{{critter.Value}} Bells</span>
-          </div>
-          <div *ngIf="critter.ShadowSize" class="detail">
-            <span class="detail-name">Shadow Size:</span> <span class="detail-value">{{critter.ShadowSize}}</span>
+          <div style="font-size: 0.75rem; margin-top: 5px">
+            <mat-chip-list>
+              <mat-chip class="my-chip-xs" *ngFor="let month of monthsToDisplay(critter)"
+                [style.background-color]="getMonthColor(month)">{{month}}</mat-chip>
+            </mat-chip-list>
           </div>
         </div>
-        <div style="font-size: 0.75rem; margin-top: 5px">
-          <mat-chip-list>
-            <mat-chip class="my-chip-xs" *ngFor="let month of monthsToDisplay(critter)"
-              [style.background-color]="getMonthColor(month)">{{month}}</mat-chip>
-          </mat-chip-list>
+
+        <div class="checkbox-container">
+          <mat-checkbox [checked]="hasCritter(critter)" (change)="ownershipChange(critter)">
+
+          </mat-checkbox>
         </div>
-      </div>
-
-      <div class="checkbox-container">
-        <mat-checkbox [checked]="hasCritter(critter)" (change)="ownershipChange(critter)">
-
-        </mat-checkbox>
       </div>
     </div>
   </div>

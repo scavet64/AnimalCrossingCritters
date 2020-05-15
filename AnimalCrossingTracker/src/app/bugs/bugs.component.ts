@@ -13,7 +13,7 @@ export class BugsComponent implements OnInit {
 
   constructor(
     public bugService: BugService
-  ) {   }
+  ) {}
 
   ngOnInit() {
     this.bugService.loadBugs().subscribe(res => {
