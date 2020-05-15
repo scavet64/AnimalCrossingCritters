@@ -2567,7 +2567,7 @@
   {
     "CritterNumber": 66,
     "Name": "Walking Stick",
-    "Location": "Falls from shaking trees",
+    "Location": "On trees",
     "Value": "600",
     "Time": "4 a.m. - 8 a.m., 5 p.m. - 7 p.m.",
     "TimeList": [
