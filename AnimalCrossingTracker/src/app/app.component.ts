@@ -1,6 +1,8 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { MatDialog } from '@angular/material';
 import { InformationComponent } from './information/information.component';
+import { GoogleAnalyticService } from './analytics/google-analytic.service';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -21,8 +23,16 @@ export class AppComponent implements OnInit {
   MOBILE_SIDENAV = 'over';
 
   constructor(
-    private dialog: MatDialog
-  ) { }
+    private dialog: MatDialog,
+    private googleAnalyticService: GoogleAnalyticService,
+    private router: Router
+  ) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        this.googleAnalyticService.pageRouted(event.urlAfterRedirects);
+      }
+    });
+  }
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {

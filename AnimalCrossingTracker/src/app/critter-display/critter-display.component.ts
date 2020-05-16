@@ -7,6 +7,7 @@ import { BugService } from '../bugs/bug.service';
 import { Constants } from '../models/constants';
 import { Fish } from '../fish/fish';
 import { trigger, transition, style, animate, query, stagger, animateChild, sequence } from '@angular/animations';
+import { GoogleAnalyticService } from '../analytics/google-analytic.service';
 
 @Component({
   selector: 'app-critter-display',
@@ -36,7 +37,7 @@ export class CritterDisplayComponent implements OnInit {
   @Input() critters: Critter[];
   @Input() type: string;
 
-  filteredCritters: Critter[] | Fish[];
+  filteredCritters: Critter[] | Fish[] = [];
 
   searchBar = '';
   selectedMonth: string;
@@ -47,8 +48,9 @@ export class CritterDisplayComponent implements OnInit {
   selectedAvailability = 'Available';
 
   constructor(
-    public fishService: FishService,
     public bugService: BugService,
+    public fishService: FishService,
+    public googleAnalyticService: GoogleAnalyticService,
     public monthColorService: MonthColorService,
     public userDataService: UserDataService
   ) { }
@@ -228,8 +230,10 @@ export class CritterDisplayComponent implements OnInit {
     // If we have it, remove it, otherwise add it
     if (collection.find(critterId => critterId === critter.CritterNumber)) {
       collection = collection.filter(critterId => critterId !== critter.CritterNumber);
+      this.googleAnalyticService.eventEmitter('ownership-change', 'critter', 'removed', 'click');
     } else {
       collection.push(critter.CritterNumber);
+      this.googleAnalyticService.eventEmitter('ownership-change', 'critter', 'owned', 'click');
     }
     return collection;
   }
