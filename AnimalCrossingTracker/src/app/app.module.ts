@@ -52,6 +52,7 @@ import { BugsComponent } from './bugs/bugs.component';
 import { ImagePreloadDirective } from './images/image-preload.directive';
 import { CritterDisplayComponent } from './critter-display/critter-display.component';
 import { InformationComponent } from './information/information.component';
+import { DeepseaComponent } from './deepsea/deepsea.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import { InformationComponent } from './information/information.component';
     ImagePreloadDirective,
     CritterDisplayComponent,
     InformationComponent,
+    DeepseaComponent,
   ],
   imports: [
     BrowserModule,

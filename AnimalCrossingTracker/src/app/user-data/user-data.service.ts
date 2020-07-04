@@ -21,13 +21,22 @@ export class UserDataService {
       const loadedData = JSON.parse(data);
       // Upgrade Data
       if (!loadedData.version) {
+        // If no version was inside the loaded data.
         const newData = new UserData();
         newData.ownedBugs = loadedData.ownedBugs;
         newData.ownedFish = loadedData.ownedFish;
+        newData.ownedDeepsea = [];
         this.userData = newData;
         this.save();
       } else if (loadedData.version === '0.1.1') {
+        // Upgrading from 0.1.1 -> current version
         loadedData.critterOrder = 'id-a';
+        loadedData.version = Constants.VERSION;
+        this.userData = loadedData;
+        this.save();
+      } else if (loadedData.version === '0.2.0') {
+        // Upgrading from 0.2.0 -> current version
+        loadedData.ownedDeepsea = [];
         loadedData.version = Constants.VERSION;
         this.userData = loadedData;
         this.save();
@@ -39,6 +48,7 @@ export class UserDataService {
       this.userData = {
         ownedBugs: [],
         ownedFish: [],
+        ownedDeepsea: [],
         filteredHemisphere: 'Northern',
         filteredMonth: '',
         filteredName: '',

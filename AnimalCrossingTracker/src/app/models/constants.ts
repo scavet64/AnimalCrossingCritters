@@ -1,5 +1,5 @@
 export class Constants {
-  public static readonly VERSION = '0.2.0';
+  public static readonly VERSION = '1.3.0';
 
   public static monthsList: string[] = [
     'January',

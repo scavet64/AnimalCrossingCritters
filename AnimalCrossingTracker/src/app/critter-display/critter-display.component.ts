@@ -8,6 +8,7 @@ import { Constants } from '../models/constants';
 import { Fish } from '../fish/fish';
 import { trigger, transition, style, animate, query, stagger, animateChild, sequence } from '@angular/animations';
 import { GoogleAnalyticService } from '../analytics/google-analytic.service';
+import { DeepSeaService } from '../deepsea/deepsea.service';
 
 @Component({
   selector: 'app-critter-display',
@@ -50,6 +51,7 @@ export class CritterDisplayComponent implements OnInit {
   constructor(
     public bugService: BugService,
     public fishService: FishService,
+    public deepSeaService: DeepSeaService,
     public googleAnalyticService: GoogleAnalyticService,
     public monthColorService: MonthColorService,
     public userDataService: UserDataService
@@ -63,8 +65,14 @@ export class CritterDisplayComponent implements OnInit {
         this.filteredCritters = this.critters;
         this.updateFilter();
       });
-    } else {
+    } else if (this.type === 'fish') {
       this.fishService.loadFish().subscribe(res => {
+        this.critters = res;
+        this.filteredCritters = this.critters;
+        this.updateFilter();
+      });
+    } else {
+      this.deepSeaService.loadDeepSea().subscribe(res => {
         this.critters = res;
         this.filteredCritters = this.critters;
         this.updateFilter();
@@ -209,8 +217,10 @@ export class CritterDisplayComponent implements OnInit {
   hasCritter(critter: Critter) {
     if (this.type === 'bug') {
       return this.userDataService.userData.ownedBugs.find(fishId => fishId === critter.CritterNumber) !== undefined;
-    } else {
+    } else if (this.type === 'fish') {
       return this.userDataService.userData.ownedFish.find(fishId => fishId === critter.CritterNumber) !== undefined;
+    } else {
+      return this.userDataService.userData.ownedDeepsea.find(fishId => fishId === critter.CritterNumber) !== undefined;
     }
   }
 
@@ -218,8 +228,10 @@ export class CritterDisplayComponent implements OnInit {
     const userData = this.userDataService.userData;
     if (this.type === 'bug') {
       userData.ownedBugs = this.updateCollection(critter, userData.ownedBugs);
-    } else {
+    } else if (this.type === 'fish') {
       userData.ownedFish = this.updateCollection(critter, userData.ownedFish);
+    } else {
+      userData.ownedDeepsea = this.updateCollection(critter, userData.ownedDeepsea);
     }
 
     this.userDataService.save();
@@ -249,8 +261,10 @@ export class CritterDisplayComponent implements OnInit {
   getImage(critter: Critter) {
     if (this.type === 'bug') {
       return this.bugService.getImagePath(critter);
-    } else {
+    } else if (this.type === 'fish') {
       return this.fishService.getImagePath(critter);
+    } else {
+      return this.deepSeaService.getImagePath(critter);
     }
   }
 

@@ -23,7 +23,9 @@
           </div>
           <div class="critter-details">
             <div class="first-detail detail">
-              <span class="detail-name">Location:</span> <span class="detail-value">{{critter.Location}}</span>
+              <span *ngIf="type === 'deepsea'" class="detail-name">Swimming Pattern:</span>
+              <span *ngIf="type !== 'deepsea'" class="detail-name">Location:</span>
+              <span class="detail-value">{{critter.Location}}</span>
             </div>
             <div class="detail">
               <span class="detail-name">Time of day:</span> <span class="detail-value">{{critter.Time}}</span>
