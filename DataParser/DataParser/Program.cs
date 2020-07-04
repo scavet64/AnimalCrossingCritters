@@ -1,4 +1,5 @@
-using DataParser.Model;
+﻿using DataParser.Model;
+using DataParser.WikiModel;
 using HtmlAgilityPack;
 using Newtonsoft.Json;
 using System;
@@ -30,40 +31,93 @@ namespace DataParser
 
         private static List<string> Times = new List<string>()
         {
-            "12 a.m.",
-            "1 a.m.",
-            "2 a.m.",
-            "3 a.m.",
-            "4 a.m.",
-            "5 a.m.",
-            "6 a.m.",
-            "7 a.m.",
-            "8 a.m.",
-            "9 a.m.",
-            "10 a.m.",
-            "11 a.m.",
-            "12 p.m.",
-            "1 p.m.",
-            "2 p.m.",
-            "3 p.m.",
-            "4 p.m.",
-            "5 p.m.",
-            "6 p.m.",
-            "7 p.m.",
-            "8 p.m.",
-            "9 p.m.",
-            "10 p.m.",
-            "11 p.m."
+            "12am",
+            "1am",
+            "2am",
+            "3am",
+            "4am",
+            "5am",
+            "6am",
+            "7am",
+            "8am",
+            "9am",
+            "10am",
+            "11am",
+            "12pm",
+            "1pm",
+            "2pm",
+            "3pm",
+            "4pm",
+            "5pm",
+            "6pm",
+            "7pm",
+            "8pm",
+            "9pm",
+            "10pm",
+            "11pm"
         };
 
         static void Main(string[] args)
         {
-            ConvertType<Fish>(@"C:\Users\vstro\Desktop\Animal Crossing\Fish.json", @"C:\Users\vstro\Desktop\Animal Crossing\FishCustom.json");
-            Console.WriteLine("Finished Processing Fish\n\n");
-            ConvertType<Critter>(@"C:\Users\vstro\Desktop\Animal Crossing\Bugs.json", @"C:\Users\vstro\Desktop\Animal Crossing\BugsCustom.json");
-            Console.WriteLine("Finished Processing Bugs\n\n");
+            //ConvertType<Fish>(@"C:\Users\vstro\Desktop\Animal Crossing\Fish.json", @"C:\Users\vstro\Desktop\Animal Crossing\FishCustom.json");
+            //Console.WriteLine("Finished Processing Fish\n\n");
+            //ConvertType<Critter>(@"C:\Users\vstro\Desktop\Animal Crossing\Bugs.json", @"C:\Users\vstro\Desktop\Animal Crossing\BugsCustom.json");
+            //Console.WriteLine("Finished Processing Bugs\n\n");
+            ConvertDeepSea(@"C:\Users\vstro\Desktop\deep-sea.json", @"C:\Users\vstro\Downloads\deep-sea-South.json", @"C:\Users\vstro\Desktop\deep-sea-custom.json");
+            Console.WriteLine("Finished Processing DeepSea\n\n");
 
             Console.WriteLine("Done!");
+        }
+
+        private static void ConvertDeepSea(string dataPath, string southPath, string customPath)
+        {
+            string data = File.ReadAllText(dataPath);
+            string southData = File.ReadAllText(southPath);
+
+            DeepSeaWiki[] critterArray = JsonConvert.DeserializeObject<DeepSeaWiki[]>(data);
+            DeepSeaWiki[] southCritterArray = JsonConvert.DeserializeObject<DeepSeaWiki[]>(southData);
+            DeepSea[] convertedArray = new DeepSea[critterArray.Length];
+
+            for (int i = 0; i < critterArray.Length; i++)
+            {
+                var convertedCritter = new DeepSea
+                {
+                    NorthHemisphere = convertWikiMonths(critterArray[i]),
+                    SouthHemisphere = convertWikiMonths(southCritterArray[i]),
+                    TimeList = GetTimeOfDay(critterArray[i].Time),
+                    CritterNumber = i + 1,
+                    SwimmingPattern = critterArray[i].SwimmingPattern,
+                    Location = critterArray[i].SwimmingPattern,
+                    ShadowSize = critterArray[i].ShadowSize,
+                    Value = critterArray[i].Price,
+                    Name = critterArray[i].Name,
+                    Time = critterArray[i].Time,
+                };
+                convertedArray[i] = convertedCritter;
+                Console.WriteLine($"processed: {critterArray[i].Name}");
+            }
+
+            string updatedCritterJson = JsonConvert.SerializeObject(convertedArray, Formatting.Indented);
+            File.WriteAllText(customPath, updatedCritterJson);
+        }
+
+        private static List<string> convertWikiMonths(DeepSeaWiki deepSea)
+        {
+            List<string> months = new List<string>();
+            if (deepSea.Jan == "✓") months.Add(Months[0]);
+            if (deepSea.Feb == "✓") months.Add(Months[1]);
+            if (deepSea.Mar == "✓") months.Add(Months[2]);
+            if (deepSea.Apr == "✓") months.Add(Months[3]);
+            if (deepSea.May == "✓") months.Add(Months[4]);
+            if (deepSea.Jun == "✓") months.Add(Months[5]);
+            if (deepSea.Jul == "✓") months.Add(Months[6]);
+            if (deepSea.Aug == "✓") months.Add(Months[7]);
+            if (deepSea.Sep == "✓") months.Add(Months[8]);
+            if (deepSea.Oct == "✓") months.Add(Months[9]);
+            if (deepSea.Nov == "✓") months.Add(Months[10]);
+            if (deepSea.Dec == "✓") months.Add(Months[11]);
+
+            return months;
         }
 
 
@@ -76,7 +130,7 @@ namespace DataParser
             foreach (T critter in critterArray)
             {
                 ConvertMonthsToData(critter);
-                critter.TimeList = GetTimeOfDay(critter);
+                critter.TimeList = GetTimeOfDay(critter.Time);
                 Console.WriteLine($"processed: {critter.Name}");
             }
 
@@ -142,25 +196,25 @@ namespace DataParser
             return monthsList;
         }
 
-        private static List<string> GetTimeOfDay(Critter critter)
+        private static List<string> GetTimeOfDay(string time)
         {
             List<string> timeOfDay = new List<string>();
 
-            if (critter.Time == "All day")
+            if (time == "All day")
             {
                 return Times;
             }
             else
             {
-                string pattern = @"(\d \w.\w.) - (\d \w.\w.)";
+                string pattern = @"(\d\w\w) - (\d\w\w)";
                 Regex rgx = new Regex(pattern);
 
-                foreach (Match match in rgx.Matches(critter.Time))
+                foreach (Match match in rgx.Matches(time))
                 {
 
                     if (match.Groups.Count != 3)
                     {
-                        Console.WriteLine($"Invalid regex matches for time: {critter.Time}");
+                        Console.WriteLine($"Invalid regex matches for time: {time}");
                         throw new Exception();
                     }
 
