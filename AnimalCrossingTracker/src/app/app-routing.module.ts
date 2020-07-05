@@ -7,7 +7,7 @@ import { DeepseaComponent } from './deepsea/deepsea.component';
 
 const routes: Routes = [
   { path: 'fish', component: FishComponent },
-  { path: 'deepsea', component: DeepseaComponent },
+  { path: 'sea', component: DeepseaComponent },
   { path: 'bugs', component: BugsComponent },
   { path: '',
     redirectTo: '/fish',

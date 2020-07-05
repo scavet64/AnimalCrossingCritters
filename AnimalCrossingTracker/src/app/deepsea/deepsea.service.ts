@@ -11,9 +11,7 @@ export class DeepSeaService {
 
   public deepSea: DeepSea[];
 
-  constructor(private httpClient: HttpClient) {
-
-  }
+  constructor(private httpClient: HttpClient) { }
 
   public loadDeepSea(): Observable<DeepSea[]> {
     if (!this.deepSea) {
