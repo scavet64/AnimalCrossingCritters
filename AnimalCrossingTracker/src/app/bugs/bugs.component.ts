@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BugService } from './bug.service';
 import { Bug } from './bug';
+import { BugCritterBehaviorService } from './bug-critter-behavior.service';
 
 @Component({
   selector: 'app-bugs',
@@ -12,7 +13,8 @@ export class BugsComponent implements OnInit {
   bugs: Bug[] = [];
 
   constructor(
-    public bugService: BugService
+    public bugService: BugService,
+    public bugCritterBehaviorService: BugCritterBehaviorService
   ) {}
 
   ngOnInit() {
