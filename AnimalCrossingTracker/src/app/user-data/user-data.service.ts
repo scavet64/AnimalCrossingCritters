@@ -15,51 +15,68 @@ export class UserDataService {
     this.loadUserData();
   }
 
-  private loadUserData() {
-    const data = localStorage.getItem(this.DATA_KEY);
-    if (data) {
-      const loadedData = JSON.parse(data);
-      // Upgrade Data
-      if (!loadedData.version) {
-        // If no version was inside the loaded data.
+  /**
+   * Update the players loaded data incrementally based on the last saved version.
+   * Fall through is desired here so that each upgrade step will be preformed in
+   * sequence based on what needs to be done at each stage. This is important as
+   * not all version upgrades may need an update to the user data object
+   * @param loadedData The loaded data to upgrade
+   */
+  private upgrade(loadedData: UserData): UserData {
+    switch (loadedData.version) {
+      case undefined:
         const newData = new UserData();
         newData.ownedBugs = loadedData.ownedBugs;
         newData.ownedFish = loadedData.ownedFish;
-        newData.ownedDeepsea = [];
-        this.userData = newData;
-        this.save();
-      } else if (loadedData.version === '0.1.1') {
-        // Upgrading from 0.1.1 -> current version
+        loadedData = newData;
+      // tslint:disable-next-line: no-switch-case-fall-through
+      case '0.1.1':
         loadedData.critterOrder = 'id-a';
-        loadedData.version = Constants.VERSION;
-        this.userData = loadedData;
-        this.save();
-      } else if (loadedData.version === '0.2.0') {
-        // Upgrading from 0.2.0 -> current version
+      // tslint:disable-next-line: no-switch-case-fall-through
+      case '0.2.0':
         loadedData.ownedDeepsea = [];
-        loadedData.version = Constants.VERSION;
-        this.userData = loadedData;
-        this.save();
-      } else {
-        this.userData = loadedData;
-      }
-    } else {
-      // Init and save starting data
-      this.userData = {
-        ownedBugs: [],
-        ownedFish: [],
-        ownedDeepsea: [],
-        filteredHemisphere: 'Northern',
-        filteredMonth: '',
-        filteredName: '',
-        filteredTime: [],
-        hideCaptured: false,
-        availability: 'Available',
-        critterOrder: 'id-a',
-        version: Constants.VERSION
-      };
-      localStorage.setItem(this.DATA_KEY, JSON.stringify(this.userData));
     }
+
+    loadedData.version = Constants.VERSION;
+    this.save();
+
+    return loadedData;
+  }
+
+  private loadUserData() {
+    const data = localStorage.getItem(this.DATA_KEY);
+
+    // Check if there is any saved data
+    if (data) {
+      // Parse the saved data and process it.
+      let loadedData = JSON.parse(data);
+
+      if (loadedData.version !== Constants.VERSION) {
+        loadedData = this.upgrade(loadedData);
+      }
+
+      this.userData = loadedData;
+    } else {
+      // No saved data, initialize new user data and store it
+      this.initializeNewUserData();
+    }
+  }
+
+  private initializeNewUserData() {
+    this.userData = {
+      ownedBugs: [],
+      ownedFish: [],
+      ownedDeepsea: [],
+      filteredHemisphere: 'Northern',
+      filteredMonth: '',
+      filteredName: '',
+      filteredTime: [],
+      hideCaptured: false,
+      availability: 'Available',
+      critterOrder: 'id-a',
+      version: Constants.VERSION
+    };
+    this.save();
   }
 
   save() {

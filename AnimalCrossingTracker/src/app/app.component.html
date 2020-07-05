@@ -22,7 +22,7 @@
 
 <mat-sidenav-container class="content-container">
   <mat-sidenav #sidenav [mode]="sideNavMode" [opened]="isOpened && isMobile" class="sidenav">
-    <app-sidenav></app-sidenav>
+    <app-sidenav (clickedTab)="sidenav.toggle()"></app-sidenav>
   </mat-sidenav>
   <mat-sidenav-content #content>
     <div class="main-content">
