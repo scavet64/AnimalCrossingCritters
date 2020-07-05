@@ -8,18 +8,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class BugService {
 
-  public fish: Bug[];
-
   constructor(private httpClient: HttpClient) { }
 
   public loadBugs(): Observable<Bug[]> {
-    if (!this.fish) {
-      return this.httpClient.get<any>('assets/data/BugsCustom.json');
-    } else {
-      return Observable.create(observe => {
-        return this.fish;
-      });
-    }
+    return this.httpClient.get<any>('assets/data/BugsCustom.json');
   }
 
   public getImagePath(bug: Bug): string {

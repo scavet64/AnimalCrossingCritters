@@ -1,10 +1,8 @@
 # Animal Crossing Critters
 
-[![Build Status][heroku-image]][heroku-url]
-
 This webapp was designed to help Animal Crossing: New Horizons players keep track of the critters they have captured and what critters are available at any given time. The initial data used on this webapp was collected from various sources around the internet and was parsed into json objects that I could manipulate easily. This json file was then ran through the DataParser project in this repository to manipulate some of the collected fields into objects that I wanted to use in on the webapp. The Parser project was created in C# and was meant to be a quick and simple data manipulator without much hassle. The actual webapp was developed using the angular 8 framework and implements a material UI design. 
 
-This webapp is hosted on heroku and can be reached by navigating to https://animalcrossing.scavettapps.com
+This webapp is hosted on AWS Amplify and can be reached by navigating to https://animalcrossing.scavettapps.com
 
 ![](Screenshots/desktop.png)
 
@@ -19,7 +17,16 @@ ng serve
 ```
 
 ## Release History
-
+* 1.3.0
+    * Added a new page for the newly added Sea Creatures
+    * Changed hosting and automated build provider from Heroku to AWS Amplify
+    * Renamed the 'Bugs' button and route to 'Insects' to reflect the game's language.
+    * Added a loading spinner while the data is being fetched
+    * The mobile sidenav will now automatically close when a user clicks a tab
+    * Upgraded the angular version from 8.2 -> 10.0
+    * Refactored some of the generic display code to be more generic
+    * Refactored the way UserData upgrades are preformed
+    * Updated the versioning scheme
 * 0.2.0
     * Added the ability to order critters by either their id or their value
     * Minor refactoring to cleanup some of the code
@@ -42,7 +49,3 @@ Vincent Scavetta – [@scavettapps](https://twitter.com/scavettapps) – scavett
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[heroku-image]: http://heroku-badges.herokuapp.com/?app=animal-crossing-critters&root=products-e2e.html
-[heroku-url]: http://heroku-badges.herokuapp.com/?app=animal-crossing-critters&root=products-e2e.html

@@ -8,6 +8,9 @@ import { Constants } from '../models/constants';
 import { Fish } from '../fish/fish';
 import { trigger, transition, style, animate, query, stagger, animateChild, sequence } from '@angular/animations';
 import { GoogleAnalyticService } from '../analytics/google-analytic.service';
+import { DeepSeaService } from '../deepsea/deepsea.service';
+import { DeepSea } from '../deepsea/deepsea';
+import { CritterBehavior } from './critter-behavior';
 
 @Component({
   selector: 'app-critter-display',
@@ -36,9 +39,11 @@ export class CritterDisplayComponent implements OnInit {
 
   @Input() critters: Critter[];
   @Input() type: string;
+  @Input() critterBehavior: CritterBehavior;
 
-  filteredCritters: Critter[] | Fish[] = [];
+  filteredCritters: Critter[] | Fish[] | DeepSea[] = [];
 
+  loading = true;
   searchBar = '';
   selectedMonth: string;
   selectedTimes: string[] = [];
@@ -50,26 +55,24 @@ export class CritterDisplayComponent implements OnInit {
   constructor(
     public bugService: BugService,
     public fishService: FishService,
+    public deepSeaService: DeepSeaService,
     public googleAnalyticService: GoogleAnalyticService,
     public monthColorService: MonthColorService,
     public userDataService: UserDataService
   ) { }
 
   ngOnInit() {
-    // TODO: This should not be needed but for whatever reason the input array is not working
-    if (this.type === 'bug') {
-      this.bugService.loadBugs().subscribe(res => {
-        this.critters = res;
-        this.filteredCritters = this.critters;
-        this.updateFilter();
-      });
-    } else {
-      this.fishService.loadFish().subscribe(res => {
-        this.critters = res;
-        this.filteredCritters = this.critters;
-        this.updateFilter();
-      });
-    }
+    /**
+     * TODO: This should not be needed but for whatever reason the input array is not working.
+     * I suspect its due to the input coming from the parent is filled via a subscription
+     */
+    this.critterBehavior.loadCritters().subscribe(res => {
+      this.critters = res;
+      this.filteredCritters = this.critters;
+      this.updateFilter();
+      this.loading = false;
+    });
+
     const userData = this.userDataService.userData;
 
     // Initialize filters based on saved user data
@@ -207,20 +210,12 @@ export class CritterDisplayComponent implements OnInit {
   }
 
   hasCritter(critter: Critter) {
-    if (this.type === 'bug') {
-      return this.userDataService.userData.ownedBugs.find(fishId => fishId === critter.CritterNumber) !== undefined;
-    } else {
-      return this.userDataService.userData.ownedFish.find(fishId => fishId === critter.CritterNumber) !== undefined;
-    }
+    return this.critterBehavior.hasCritter(critter);
   }
 
   ownershipChange(critter: Critter) {
-    const userData = this.userDataService.userData;
-    if (this.type === 'bug') {
-      userData.ownedBugs = this.updateCollection(critter, userData.ownedBugs);
-    } else {
-      userData.ownedFish = this.updateCollection(critter, userData.ownedFish);
-    }
+    const ownedCritters = this.critterBehavior.getOwnedCritters();
+    this.critterBehavior.updateOwnedCritters(this.updateCollection(critter, ownedCritters));
 
     this.userDataService.save();
     this.updateFilter();
@@ -238,19 +233,15 @@ export class CritterDisplayComponent implements OnInit {
     return collection;
   }
 
+  getImage(critter: Critter) {
+    return this.critterBehavior.getImage(critter);
+  }
+
   monthsToDisplay(critter: Critter) {
     if (this.selectedHemisphere === 'Northern') {
       return critter.NorthHemisphere;
     } else {
       return critter.SouthHemisphere;
-    }
-  }
-
-  getImage(critter: Critter) {
-    if (this.type === 'bug') {
-      return this.bugService.getImagePath(critter);
-    } else {
-      return this.fishService.getImagePath(critter);
     }
   }
 

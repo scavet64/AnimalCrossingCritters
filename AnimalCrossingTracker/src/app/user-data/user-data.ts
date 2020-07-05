@@ -3,6 +3,7 @@ import { Constants } from '../models/constants';
 export class UserData {
   ownedFish: number[];
   ownedBugs: number[];
+  ownedDeepsea: number[];
 
   filteredHemisphere = 'Northern';
   filteredMonth = '';

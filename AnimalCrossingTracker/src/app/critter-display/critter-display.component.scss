@@ -93,6 +93,16 @@
   padding: 50px;
 }
 
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.month-chips {
+  font-size: 0.75rem;
+  margin-top: 5px
+}
+
 @media only screen and (max-width: 613px) {
   .content {
     display: block;

@@ -9,27 +9,14 @@ import { Critter } from '../models/critter';
 })
 export class FishService {
 
-  public fish: Fish[];
-
-  constructor(private httpClient: HttpClient) {
-
-  }
+  constructor(private httpClient: HttpClient) { }
 
   public loadFish(): Observable<Fish[]> {
-    if (!this.fish) {
-      return this.httpClient.get<any>('assets/data/FishCustom.json');
-    } else {
-      return Observable.create(observe => {
-        return this.fish;
-      });
-    }
+    return this.httpClient.get<any>('assets/data/FishCustom.json');
   }
 
   public getImagePath(fish: Critter): string {
     return `./assets/imgs/fish/${fish.CritterNumber}.png`;
   }
 
-  // public getFish(): Fish[] {
-  //   return this.fish;
-  // }
 }

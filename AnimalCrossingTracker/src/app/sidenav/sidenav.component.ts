@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-sidenav',
@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidenavComponent implements OnInit {
 
+  @Output() clickedTab = new EventEmitter<any>();
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  clicked() {
+    this.clickedTab.emit();
   }
 
 }
