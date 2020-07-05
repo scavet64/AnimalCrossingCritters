@@ -20,6 +20,7 @@ ng serve
 * 1.3.0
     * Added a new page for the newly added Sea Creatures
     * Changed hosting and automated build provider from Heroku to AWS Amplify
+    * Renamed the 'Bugs' button and route to 'Insects' to reflect the game's language.
     * Added a loading spinner while the data is being fetched
     * Refactored some of the generic display code to be more generic
     * Updated the versioning scheme

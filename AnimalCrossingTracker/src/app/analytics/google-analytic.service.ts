@@ -16,17 +16,17 @@ export class GoogleAnalyticService {
     eventLabel: string = null,
     eventValue: number = null) {
     gtag('event', eventName, {
-      eventCategory: eventCategory,
-      eventLabel: eventLabel,
-      eventAction: eventAction,
-      eventValue: eventValue
+      eventCategory,
+      eventLabel,
+      eventAction,
+      eventValue
     });
   }
 
   public pageRouted(url: string) {
     gtag('config', 'xx-xxxxx-xx',
       {
-        'page_path': url
+        page_path: url
       }
     );
   }

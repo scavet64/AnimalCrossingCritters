@@ -9,18 +9,10 @@ import { Critter } from '../models/critter';
 })
 export class DeepSeaService {
 
-  public deepSea: DeepSea[];
-
   constructor(private httpClient: HttpClient) { }
 
   public loadDeepSea(): Observable<DeepSea[]> {
-    if (!this.deepSea) {
-      return this.httpClient.get<any>('assets/data/DeepSeaCustom.json');
-    } else {
-      return Observable.create(observe => {
-        return this.deepSea;
-      });
-    }
+    return this.httpClient.get<any>('assets/data/DeepSeaCustom.json');
   }
 
   public getImagePath(fish: Critter): string {
