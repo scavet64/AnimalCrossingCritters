@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Fish } from './fish';
 import { FishService } from './fish.service';
+import { FishCritterBehaviorService } from './fish-critter-behavior.service';
 
 @Component({
   selector: 'app-fish',
@@ -12,7 +13,8 @@ export class FishComponent implements OnInit {
   fishes: Fish[];
 
   constructor(
-    public fishService: FishService
+    public fishService: FishService,
+    public fishCritterBehaviorService: FishCritterBehaviorService
   ) { }
 
   ngOnInit() {

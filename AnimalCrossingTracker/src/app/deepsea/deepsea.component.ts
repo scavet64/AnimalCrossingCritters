@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DeepSea } from './deepsea';
 import { DeepSeaService } from './deepsea.service';
+import { DeepSeaCritterBehaviorService } from './deep-sea-critter-behavior.service';
 
 @Component({
   selector: 'app-deepsea',
@@ -12,13 +13,13 @@ export class DeepseaComponent implements OnInit {
   deepsea: DeepSea[];
 
   constructor(
-    public deepSeaService: DeepSeaService
-  ) { }
+    public deepSeaService: DeepSeaService,
+    public deepSeaCritterBehaviorService: DeepSeaCritterBehaviorService
+  ) {}
 
   ngOnInit() {
     this.deepSeaService.loadDeepSea().subscribe(res => {
       this.deepsea = res;
     });
   }
-
 }
