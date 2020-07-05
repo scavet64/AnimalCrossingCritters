@@ -22,6 +22,7 @@ ng serve
     * Changed hosting and automated build provider from Heroku to AWS Amplify
     * Renamed the 'Bugs' button and route to 'Insects' to reflect the game's language.
     * Added a loading spinner while the data is being fetched
+    * The mobile sidenav will now automatically close when a user clicks a tab
     * Upgraded the angular version from 8.2 -> 10.0
     * Refactored some of the generic display code to be more generic
     * Updated the versioning scheme

@@ -1,11 +1,11 @@
 <div class="sidenav-container">
-  <div [routerLink]="['/fish']" [routerLinkActive]="'menu-item-selected'" class="menu-item">
+  <div [routerLink]="['/fish']" [routerLinkActive]="'menu-item-selected'" class="menu-item" (click)="clicked()">
     <i class="fas fa-fish"></i> Fish
   </div>
-  <div [routerLink]="['/insects']" [routerLinkActive]="'menu-item-selected'" class="menu-item">
+  <div [routerLink]="['/insects']" [routerLinkActive]="'menu-item-selected'" class="menu-item" (click)="clicked()">
     <i class="fas fa-bug"></i> Insects
   </div>
-  <div [routerLink]="['/sea']" [routerLinkActive]="'menu-item-selected'" class="menu-item">
+  <div [routerLink]="['/sea']" [routerLinkActive]="'menu-item-selected'" class="menu-item" (click)="clicked()">
     <i class="fas fa-water"></i> Sea Creatures
   </div>
 </div>
