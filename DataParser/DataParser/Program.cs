@@ -63,7 +63,7 @@ namespace DataParser
             //Console.WriteLine("Finished Processing Fish\n\n");
             //ConvertType<Critter>(@"C:\Users\vstro\Desktop\Animal Crossing\Bugs.json", @"C:\Users\vstro\Desktop\Animal Crossing\BugsCustom.json");
             //Console.WriteLine("Finished Processing Bugs\n\n");
-            ConvertDeepSea(@"C:\Users\vstro\Desktop\deep-sea.json", @"C:\Users\vstro\Downloads\deep-sea-South.json", @"C:\Users\vstro\Desktop\deep-sea-custom.json");
+            ConvertDeepSea(@"C:\Users\vstro\Desktop\Animal Crossing\deep-sea-north.json", @"C:\Users\vstro\Desktop\Animal Crossing\deep-sea-south.json", @"C:\Users\vstro\Desktop\Animal Crossing\deep-sea-custom.json");
             Console.WriteLine("Finished Processing DeepSea\n\n");
 
             Console.WriteLine("Done!");

@@ -17,6 +17,8 @@ ng serve
 ```
 
 ## Release History
+* 1.3.1
+    * Updated the Sea Creature data with latest available
 * 1.3.0
     * Added a new page for the newly added Sea Creatures
     * Changed hosting and automated build provider from Heroku to AWS Amplify
