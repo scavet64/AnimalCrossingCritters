@@ -15,6 +15,25 @@ export class UserDataService {
     this.loadUserData();
   }
 
+  private loadUserData() {
+    const data = localStorage.getItem(this.DATA_KEY);
+
+    // Check if there is any saved data
+    if (data) {
+      // Parse the saved data and process it.
+      let loadedData = JSON.parse(data);
+
+      if (loadedData.version !== Constants.VERSION) {
+        loadedData = this.upgrade(loadedData);
+      }
+
+      this.userData = loadedData;
+    } else {
+      // No saved data, initialize new user data and store it
+      this.initializeNewUserData();
+    }
+  }
+
   /**
    * Update the players loaded data incrementally based on the last saved version.
    * Fall through is desired here so that each upgrade step will be preformed in
@@ -41,25 +60,6 @@ export class UserDataService {
     this.save();
 
     return loadedData;
-  }
-
-  private loadUserData() {
-    const data = localStorage.getItem(this.DATA_KEY);
-
-    // Check if there is any saved data
-    if (data) {
-      // Parse the saved data and process it.
-      let loadedData = JSON.parse(data);
-
-      if (loadedData.version !== Constants.VERSION) {
-        loadedData = this.upgrade(loadedData);
-      }
-
-      this.userData = loadedData;
-    } else {
-      // No saved data, initialize new user data and store it
-      this.initializeNewUserData();
-    }
   }
 
   private initializeNewUserData() {

@@ -61,7 +61,7 @@
   },
   {
     "SwimmingPattern": "Stationary",
-    "ShadowSize": "Medium",
+    "ShadowSize": "Small",
     "CritterNumber": 2,
     "Name": "Sea grapes",
     "Location": "Stationary",
@@ -108,11 +108,11 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Consistent Movement",
+    "SwimmingPattern": "Slow consistent movement",
     "ShadowSize": "Medium",
     "CritterNumber": 3,
     "Name": "Sea cucumber",
-    "Location": "Slow Consistent Movement",
+    "Location": "Slow consistent movement",
     "Value": "500",
     "Time": "All day",
     "TimeList": [
@@ -160,12 +160,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Quick Long Lunges",
-    "ShadowSize": "Medium",
+    "SwimmingPattern": "Quick long lunges",
+    "ShadowSize": "Small",
     "CritterNumber": 4,
     "Name": "Sea pig",
-    "Location": "Quick Long Lunges",
-    "Value": "8000",
+    "Location": "Quick long lunges",
+    "Value": "10,000",
     "Time": "4pm - 9am",
     "TimeList": [
       "4pm",
@@ -202,11 +202,11 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Short Lunges",
-    "ShadowSize": "Medium",
+    "SwimmingPattern": "Slow short lunges",
+    "ShadowSize": "Small",
     "CritterNumber": 5,
     "Name": "Sea star",
-    "Location": "Slow Short Lunges",
+    "Location": "Slow short lunges",
     "Value": "500",
     "Time": "All day",
     "TimeList": [
@@ -266,12 +266,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Consistent Movement",
-    "ShadowSize": "Medium",
+    "SwimmingPattern": "Slow consistent movement",
+    "ShadowSize": "Small",
     "CritterNumber": 6,
     "Name": "Sea urchin",
-    "Location": "Slow Consistent Movement",
-    "Value": "1700",
+    "Location": "Slow consistent movement",
+    "Value": "1,700",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -316,12 +316,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Moderate Consistent Movement",
-    "ShadowSize": "Large",
+    "SwimmingPattern": "Moderate consistent movement",
+    "ShadowSize": "Medium",
     "CritterNumber": 7,
     "Name": "Slate pencil urchin",
-    "Location": "Moderate Consistent Movement",
-    "Value": "2000",
+    "Location": "Moderate consistent movement",
+    "Value": "2,000",
     "Time": "4pm - 9am",
     "TimeList": [
       "4pm",
@@ -424,11 +424,11 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Consistent Movement",
+    "SwimmingPattern": "Slow consistent movement",
     "ShadowSize": "Small",
     "CritterNumber": 9,
     "Name": "Moon jellyfish",
-    "Location": "Slow Consistent Movement",
+    "Location": "Slow consistent movement",
     "Value": "600",
     "Time": "All day",
     "TimeList": [
@@ -470,11 +470,11 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Consistent Movement",
-    "ShadowSize": "Small",
+    "SwimmingPattern": "Slow consistent movement",
+    "ShadowSize": "Tiny",
     "CritterNumber": 10,
     "Name": "Sea slug",
-    "Location": "Slow Consistent Movement",
+    "Location": "Slow consistent movement",
     "Value": "600",
     "Time": "All day",
     "TimeList": [
@@ -534,12 +534,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Moderate Long Lunges",
+    "SwimmingPattern": "Moderate long lunges",
     "ShadowSize": "Medium",
     "CritterNumber": 11,
     "Name": "Pearl oyster",
-    "Location": "Moderate Long Lunges",
-    "Value": "2800",
+    "Location": "Moderate long lunges",
+    "Value": "2,800",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -598,12 +598,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Consistent Movement",
+    "SwimmingPattern": "Slow consistent movement",
     "ShadowSize": "Small",
     "CritterNumber": 12,
     "Name": "Mussel",
-    "Location": "Slow Consistent Movement",
-    "Value": "1500",
+    "Location": "Slow consistent movement",
+    "Value": "1,500",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -652,12 +652,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Moderate Short Lunges",
+    "SwimmingPattern": "Moderate short lunges",
     "ShadowSize": "Small",
     "CritterNumber": 13,
     "Name": "Oyster",
-    "Location": "Moderate Short Lunges",
-    "Value": "2000",
+    "Location": "Moderate short lunges",
+    "Value": "1,100",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -704,12 +704,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Long Lunges",
-    "ShadowSize": "Large",
+    "SwimmingPattern": "Slow long lunges",
+    "ShadowSize": "Medium",
     "CritterNumber": 14,
     "Name": "Scallop",
-    "Location": "Slow Long Lunges",
-    "Value": "1200",
+    "Location": "Slow long lunges",
+    "Value": "1,200",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -768,12 +768,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Consistent Movement",
-    "ShadowSize": "Medium",
+    "SwimmingPattern": "Slow consistent movement",
+    "ShadowSize": "Small",
     "CritterNumber": 15,
     "Name": "Whelk",
-    "Location": "Slow Consistent Movement",
-    "Value": "1000",
+    "Location": "Slow consistent movement",
+    "Value": "1,000",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -833,11 +833,11 @@
   },
   {
     "SwimmingPattern": "Slow",
-    "ShadowSize": "Medium",
+    "ShadowSize": "Small",
     "CritterNumber": 16,
     "Name": "Turban shell",
     "Location": "Slow",
-    "Value": "800",
+    "Value": "1,000",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -886,12 +886,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Moderate Consistent Movement",
-    "ShadowSize": "Large",
+    "SwimmingPattern": "Moderate consistent movement",
+    "ShadowSize": "Medium",
     "CritterNumber": 17,
     "Name": "Abalone",
-    "Location": "Moderate Consistent Movement",
-    "Value": "2000",
+    "Location": "Moderate consistent movement",
+    "Value": "2,000",
     "Time": "4pm - 9am",
     "TimeList": [
       "4pm",
@@ -936,12 +936,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Quick Short Lunges",
-    "ShadowSize": "Large",
+    "SwimmingPattern": "Quick long lunges",
+    "ShadowSize": "Huge",
     "CritterNumber": 18,
     "Name": "Gigas giant clam",
-    "Location": "Quick Short Lunges",
-    "Value": "15000",
+    "Location": "Quick long lunges",
+    "Value": "15,000",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -987,11 +987,11 @@
   },
   {
     "SwimmingPattern": "Slow",
-    "ShadowSize": "Large",
+    "ShadowSize": "Medium",
     "CritterNumber": 19,
     "Name": "Chambered nautilus",
     "Location": "Slow",
-    "Value": "1440",
+    "Value": "1,800",
     "Time": "4pm - 9am",
     "TimeList": [
       "4pm",
@@ -1034,12 +1034,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Long Lunges",
-    "ShadowSize": "Large",
+    "SwimmingPattern": "Moderate long lunges",
+    "ShadowSize": "Medium",
     "CritterNumber": 20,
     "Name": "Octopus",
-    "Location": "Slow Long Lunges",
-    "Value": "1200",
+    "Location": "Moderate long lunges",
+    "Value": "1,200",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -1098,12 +1098,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Quick Short Lunges",
-    "ShadowSize": "Medium",
+    "SwimmingPattern": "Quick long lunges",
+    "ShadowSize": "Small",
     "CritterNumber": 21,
     "Name": "Umbrella octopus",
-    "Location": "Quick Short Lunges",
-    "Value": "6000",
+    "Location": "Quick long lunges",
+    "Value": "6,000",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -1150,12 +1150,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Quick",
+    "SwimmingPattern": "Moderate long lunges",
     "ShadowSize": "Medium",
     "CritterNumber": 22,
     "Name": "Vampire squid",
-    "Location": "Quick",
-    "Value": "10000",
+    "Location": "Moderate long lunges",
+    "Value": "10,000",
     "Time": "4pm - 9am",
     "TimeList": [
       "4pm",
@@ -1192,12 +1192,12 @@
     ]
   },
   {
-    "SwimmingPattern": "?",
-    "ShadowSize": "?",
+    "SwimmingPattern": "Slow",
+    "ShadowSize": "Tiny",
     "CritterNumber": 23,
     "Name": "Firefly squid",
-    "Location": "?",
-    "Value": "1400",
+    "Location": "Slow",
+    "Value": "1,400",
     "Time": "9pm - 4am",
     "TimeList": [
       "9pm",
@@ -1224,12 +1224,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Consistent Movement",
-    "ShadowSize": "Large",
+    "SwimmingPattern": "Moderate long lunges",
+    "ShadowSize": "Medium",
     "CritterNumber": 24,
     "Name": "Gazami crab",
-    "Location": "Slow Consistent Movement",
-    "Value": "2200",
+    "Location": "Moderate long lunges",
+    "Value": "2,200",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -1276,12 +1276,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Moderate Consistent Movement",
-    "ShadowSize": "Large",
+    "SwimmingPattern": "Moderate consistent movement",
+    "ShadowSize": "Medium",
     "CritterNumber": 25,
     "Name": "Dungeness crab",
-    "Location": "Moderate Consistent Movement",
-    "Value": "1900",
+    "Location": "Moderate consistent movement",
+    "Value": "1,900",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -1330,12 +1330,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Quick Short Lunges",
-    "ShadowSize": "?",
+    "SwimmingPattern": "Quick short lunges",
+    "ShadowSize": "Large",
     "CritterNumber": 26,
     "Name": "Snow crab",
-    "Location": "Quick Short Lunges",
-    "Value": "6000",
+    "Location": "Quick short lunges",
+    "Value": "6,000",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -1387,7 +1387,7 @@
     "CritterNumber": 27,
     "Name": "Red king crab",
     "Location": "Quick",
-    "Value": "8000",
+    "Value": "8,000",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -1433,7 +1433,7 @@
   },
   {
     "SwimmingPattern": "Stationary",
-    "ShadowSize": "Small",
+    "ShadowSize": "Tiny",
     "CritterNumber": 28,
     "Name": "Acorn barnacle",
     "Location": "Stationary",
@@ -1497,11 +1497,11 @@
   },
   {
     "SwimmingPattern": "Quick",
-    "ShadowSize": "Large",
+    "ShadowSize": "Huge",
     "CritterNumber": 29,
     "Name": "Spider crab",
     "Location": "Quick",
-    "Value": "12000",
+    "Value": "12,000",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -1540,12 +1540,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Moderate Consistent Movement",
+    "SwimmingPattern": "Moderate consistent movement",
     "ShadowSize": "Small",
     "CritterNumber": 30,
     "Name": "Tiger prawn",
-    "Location": "Moderate Consistent Movement",
-    "Value": "3000",
+    "Location": "Moderate consistent movement",
+    "Value": "3,000",
     "Time": "4pm - 9am",
     "TimeList": [
       "4pm",
@@ -1582,12 +1582,12 @@
     ]
   },
   {
-    "SwimmingPattern": "?",
-    "ShadowSize": "?",
+    "SwimmingPattern": "Slow",
+    "ShadowSize": "Small",
     "CritterNumber": 31,
     "Name": "Sweet shrimp",
-    "Location": "?",
-    "Value": "1400",
+    "Location": "Slow",
+    "Value": "1,400",
     "Time": "4pm - 9am",
     "TimeList": [
       "4pm",
@@ -1628,12 +1628,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Quick Short Lunges",
-    "ShadowSize": "Medium",
+    "SwimmingPattern": "Quick short lunges",
+    "ShadowSize": "Small",
     "CritterNumber": 32,
     "Name": "Mantis shrimp",
-    "Location": "Quick Short Lunges",
-    "Value": "2500",
+    "Location": "Quick short lunges",
+    "Value": "2,500",
     "Time": "4pm - 9am",
     "TimeList": [
       "4pm",
@@ -1686,12 +1686,12 @@
     ]
   },
   {
-    "SwimmingPattern": "?",
-    "ShadowSize": "?",
+    "SwimmingPattern": "Fast",
+    "ShadowSize": "Large",
     "CritterNumber": 33,
     "Name": "Spiny lobster",
-    "Location": "?",
-    "Value": "5000",
+    "Location": "Fast",
+    "Value": "5,000",
     "Time": "9pm - 4am",
     "TimeList": [
       "9pm",
@@ -1721,7 +1721,7 @@
     "CritterNumber": 34,
     "Name": "Lobster",
     "Location": "Quick",
-    "Value": "4500",
+    "Value": "4,500",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -1752,11 +1752,9 @@
     "Month": null,
     "NorthHemisphere": [
       "January",
-      "February",
-      "March",
       "April",
       "May",
-      "August",
+      "June",
       "December"
     ],
     "SouthHemisphere": [
@@ -1768,12 +1766,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Quick Long Lunges",
+    "SwimmingPattern": "Quick long lunges",
     "ShadowSize": "Medium",
     "CritterNumber": 35,
     "Name": "Giant isopod",
-    "Location": "Quick Long Lunges",
-    "Value": "12000",
+    "Location": "Quick long lunges",
+    "Value": "12,000",
     "Time": "9am - 4pm & 9pm - 4am",
     "TimeList": [
       "9am",
@@ -1808,12 +1806,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Quick Short Lunges",
-    "ShadowSize": "Large",
+    "SwimmingPattern": "Quick short lunges",
+    "ShadowSize": "Medium",
     "CritterNumber": 36,
     "Name": "Horseshoe Crab",
-    "Location": "Quick Short Lunges",
-    "Value": "2500",
+    "Location": "Quick short lunges",
+    "Value": "2,500",
     "Time": "9pm - 4am",
     "TimeList": [
       "9pm",
@@ -1838,12 +1836,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Long Lunges",
-    "ShadowSize": "Medium",
+    "SwimmingPattern": "Slow long lunges",
+    "ShadowSize": "Small",
     "CritterNumber": 37,
     "Name": "Sea pineapple",
-    "Location": "Slow Long Lunges",
-    "Value": "1500",
+    "Location": "Slow long lunges",
+    "Value": "1,500",
     "Time": "All day",
     "TimeList": [
       "12am",
@@ -1888,12 +1886,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Consistent Movement",
+    "SwimmingPattern": "Slow consistent movement",
     "ShadowSize": "Small",
     "CritterNumber": 38,
     "Name": "Spotted garden eel",
-    "Location": "Slow Consistent Movement",
-    "Value": "1100",
+    "Location": "Slow consistent movement",
+    "Value": "1,100",
     "Time": "4am - 9pm",
     "TimeList": [
       "4am",
@@ -1934,11 +1932,11 @@
     ]
   },
   {
-    "SwimmingPattern": "Slow Short Movement",
-    "ShadowSize": "Small",
+    "SwimmingPattern": "Slow short movement",
+    "ShadowSize": "Tiny",
     "CritterNumber": 39,
     "Name": "Flatworm",
-    "Location": "Slow Short Movement",
+    "Location": "Slow short movement",
     "Value": "700",
     "Time": "4pm - 9am",
     "TimeList": [
@@ -1972,12 +1970,12 @@
     ]
   },
   {
-    "SwimmingPattern": "Quick Long Lunges",
-    "ShadowSize": "Large",
+    "SwimmingPattern": "Quick long lunges",
+    "ShadowSize": "Medium",
     "CritterNumber": 40,
     "Name": "Venus' flower basket",
-    "Location": "Quick Long Lunges",
-    "Value": "5000",
+    "Location": "Quick long lunges",
+    "Value": "5,000",
     "Time": "All day",
     "TimeList": [
       "12am",
