@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 import { Constants } from '../models/constants';
 import { GoogleAnalyticService } from '../analytics/google-analytic.service';
 
@@ -10,7 +10,7 @@ import { GoogleAnalyticService } from '../analytics/google-analytic.service';
 })
 export class FilterComponent implements OnInit {
 
-  months = new FormControl();
+  months = new UntypedFormControl();
   timesList = Constants.timesList;
   monthsList = Constants.monthsList;
 
