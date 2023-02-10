@@ -1,3 +1,4 @@
+@use '~@angular/material' as mat;
 @import '~@angular/material/theming';
 
 @mixin search-bar-theme($theme) {
@@ -7,12 +8,12 @@
   $foreground: map-get($theme, foreground);
 
   .theme {
-    background: mat-color($primary, lighter);
-    color: mat-color($primary, '400-contrast');
+    background: mat.get-color-from-palette($primary, lighter);
+    color: mat.get-color-from-palette($primary, '400-contrast');
   }
   .theme::placeholder {
-    background: mat-color($primary, lighter);
-    color: mat-color($primary, '400-contrast');
+    background: mat.get-color-from-palette($primary, lighter);
+    color: mat.get-color-from-palette($primary, '400-contrast');
     opacity: 0.5;
   }
 }

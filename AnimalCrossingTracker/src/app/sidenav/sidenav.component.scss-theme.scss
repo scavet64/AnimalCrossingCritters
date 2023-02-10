@@ -1,3 +1,4 @@
+@use '~@angular/material' as mat;
 @import '~@angular/material/theming';
 
 @mixin sidenav-theme($theme) {
@@ -7,15 +8,15 @@
   $foreground: map-get($theme, foreground);
 
   .sidenav-container {
-    color: mat-color($primary, '100-contrast');
+    color: mat.get-color-from-palette($primary, '100-contrast');
   }
   .menu-item-selected {
-    background-color: mat-color($accent);
-    color: mat-color($accent, '500-contrast');
+    background-color: mat.get-color-from-palette($accent);
+    color: mat.get-color-from-palette($accent, '500-contrast');
   }
   .theme::placeholder {
-    background: mat-color($primary, lighter);
-    color: mat-color($primary, '400-contrast');
+    background: mat.get-color-from-palette($primary, lighter);
+    color: mat.get-color-from-palette($primary, '400-contrast');
     opacity: 0.5;
   }
 }
