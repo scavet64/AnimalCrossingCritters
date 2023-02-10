@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
 import { InformationComponent } from './information/information.component';
 import { GoogleAnalyticService } from './analytics/google-analytic.service';
 import { Router, NavigationEnd } from '@angular/router';
