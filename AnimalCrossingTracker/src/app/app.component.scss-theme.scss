@@ -1,3 +1,4 @@
+@use '~@angular/material' as mat;
 @import '~@angular/material/theming';
 
 @mixin app-component-theme($theme) {
@@ -7,6 +8,6 @@
   $foreground: map-get($theme, foreground);
 
   .sidenav  {
-    background: mat-color($primary, lighter);
+    background: mat.get-color-from-palette($primary, lighter);
   }
 }

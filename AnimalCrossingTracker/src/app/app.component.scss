@@ -1,7 +1,8 @@
+@use '~@angular/material' as mat;
 @import '~@angular/material/theming';
 
 // Include non-theme styles for core.
-@include mat-core();
+@include mat.core();
 
 .content-container {
   position: absolute;

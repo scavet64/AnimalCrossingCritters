@@ -1,3 +1,4 @@
+@use '~@angular/material' as mat;
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 @font-face {
@@ -10,7 +11,7 @@
 
 @import '~@angular/material/theming';
 
-@include mat-core();
+@include mat.core();
 
 @import './themes/dark-theme';
 @import './themes/light-theme';
@@ -30,12 +31,12 @@
 }
 
 //.light-theme {
-  @include angular-material-theme($light-theme);
+  @include mat.all-component-themes($light-theme);
   @include my-custom-components($light-theme);
 //}
 
 .dark-theme {
-  @include angular-material-theme($dark-theme);
+  @include mat.all-component-themes($dark-theme);
   @include my-custom-components($dark-theme);
 }
 
@@ -86,7 +87,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: mat-color($accent);
+  background-color: mat.get-color-from-palette($accent);
   border-radius: 10px;
 }
 

@@ -1,3 +1,4 @@
+@use '~@angular/material' as mat;
 @import '~@angular/material/theming';
 
 @mixin filter-theme($theme) {
@@ -7,12 +8,12 @@
   $foreground: map-get($theme, foreground);
 
   .mat-button-toggle {
-    background: mat-color($primary, lighter);
-    color: mat-color($primary, '400-contrast');
+    background: mat.get-color-from-palette($primary, lighter);
+    color: mat.get-color-from-palette($primary, '400-contrast');
   }
 
   .mat-button-toggle-checked {
-    background: mat-color($accent);
-    color: mat-color($accent, '400-contrast');
+    background: mat.get-color-from-palette($accent);
+    color: mat.get-color-from-palette($accent, '400-contrast');
   }
 }

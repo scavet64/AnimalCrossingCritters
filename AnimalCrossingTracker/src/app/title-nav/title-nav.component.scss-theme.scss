@@ -1,3 +1,4 @@
+@use '~@angular/material' as mat;
 @import '~@angular/material/theming';
 
 @mixin title-nav-theme($theme) {
@@ -7,12 +8,12 @@
   $foreground: map-get($theme, foreground);
 
   .button {
-    background-color: mat-color($accent);
-    color: mat-color($accent, '900-contrast');
+    background-color: mat.get-color-from-palette($accent);
+    color: mat.get-color-from-palette($accent, '900-contrast');
   }
 
   .selected {
-    background-color: mat-color($primary, lighter);
-    color: mat-color($primary, '500-contrast');
+    background-color: mat.get-color-from-palette($primary, lighter);
+    color: mat.get-color-from-palette($primary, '500-contrast');
   }
 }
